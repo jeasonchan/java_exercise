@@ -1,5 +1,7 @@
 package default_package;
 
+import static java.lang.System.out;//导入静态变量
+
 public class Class_main {
     public static void main(String[] args){
         System.out.println("hello world!");
@@ -73,6 +75,24 @@ public class Class_main {
         //修饰的，导致无法定一个引用来接收这个返回的应用，所以，还是必须利用向上转型返回一个接口，才能使用到在内部类中实现的功能
         Do_sth instance_Do_sth=instance_outer_class_3.get_interface_in_inner_class();
         instance_Do_sth.do_sth();
+
+        //try catch 异常捕捉练习1
+        try{
+            String name="jeason_chan";
+            System.out.println(name+"年龄是：");
+            int age=Integer.parseInt("25L");//故意出错，是静态方法无法完成对对字符串的转变
+            out.println("继续执行try代码块内容……");//上面的语句发生错误后，跳转到catch代码块执行，不再执行异常语句后面的代码
+            out.println(age);
+
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+
+        finally {
+            out.println("执行结束！");
+        }
+
 
 
 
