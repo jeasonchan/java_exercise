@@ -93,6 +93,24 @@ public class Class_main {
             out.println("执行结束！");
         }
 
+        //自定义异常类，并进行实现
+        try {
+            Tran.avg(-3,120);
+        }catch (my_exceptions error){
+            out.println(error);//可见java自带的exception类具有直接转为string类的默认方法
+        }
+
+        //在方法中抛出异常
+        try {
+            Shoot.pop();
+        }catch (Exception e){ //可能抛出多种异常打算用异常类这个父类接收，毕竟可以向上转型，最后打印出来的时候执行各自子类自己的打印转换方法
+            out.println(e);
+        }
+
+        //使用throw关键字抛出异常
+        try{
+            Captor.quotient(122,0);
+        }catch ()
 
 
 
