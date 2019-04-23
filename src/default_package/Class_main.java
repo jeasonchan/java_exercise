@@ -110,7 +110,15 @@ public class Class_main {
         //使用throw关键字抛出异常
         try{
             Captor.quotient(122,0);
-        }catch ()
+        }catch (my_exceptions e){
+            out.println(e);//exception类自带转化为string的方法
+            out.println(e.getMessage());//标准的返回异常提示字符串方法
+        }catch(ArithmeticException e){
+            out.println(e.getMessage());
+            out.println("除数不能为0");
+        }catch(Exception e){
+            out.println(e);//异常类这个大的父类放在最后，因为，防止前面的抓取异常类无法处理
+        }
 
 
 
