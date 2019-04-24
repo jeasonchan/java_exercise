@@ -1,5 +1,9 @@
 package default_package;
 
+import javax.swing.text.html.HTMLDocument;
+import java.util.ArrayList;
+import java.util.Collection;
+
 import static java.lang.System.out;//导入静态变量
 
 public class Class_main {
@@ -118,6 +122,17 @@ public class Class_main {
             out.println("除数不能为0");
         }catch(Exception e){
             out.println(e);//异常类这个大的父类放在最后，因为，防止前面的抓取异常类无法处理
+        }
+
+
+        //练习使用collection类
+        java.util.Collection<String> list_collection=new ArrayList<>();//实例化集合对象，这里很像模板类……
+        list_collection.add("a");
+        list_collection.add("b");
+        java.util.Iterator<String>it=list_collection.iterator();//用迭代器模板创建第一个迭代器
+        while (it.hasNext()){//迭代器的 next()方法的返回值是 Object类的实例，相当于向上转型了
+            String str=it.next();//接收向上转型得到的结果
+            out.println(str);
         }
 
 
