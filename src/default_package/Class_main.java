@@ -135,6 +135,17 @@ public class Class_main {
             out.println(str);
         }
 
+        //练习使用list集合类
+        java.util.List<Integer> mylisr1=new ArrayList();//还可以使用链表作为实现类
+        mylisr1.add(11);
+        mylisr1.add(123);
+        mylisr1.add(23);
+        mylisr1.add(45);
+        out.println(mylisr1);//能直接输出原始Arraylist
+        mylisr1.remove(2);//删除index=2的元素，并将后面的元素黔移，顺序连续存储，增删效率较低
+        out.println("mylisr1的大小是"+mylisr1.size()+" .第2个数字是"+mylisr1.get(2-1));
+
+
 
 
 
