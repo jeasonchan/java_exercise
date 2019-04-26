@@ -1,8 +1,7 @@
 package default_package;
 
 import javax.swing.text.html.HTMLDocument;
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 
 import static java.lang.System.out;//导入静态变量
 
@@ -135,7 +134,7 @@ public class Class_main {
             out.println(str);
         }
 
-        //练习使用list集合类
+        //练习使用list集合类，严格意义上来说，list不是累，是接口，作为父类接收子类向上转型得到的对象
         java.util.List<Integer> mylisr1=new ArrayList();//还可以使用链表作为实现类
         mylisr1.add(11);
         mylisr1.add(123);
@@ -144,6 +143,30 @@ public class Class_main {
         out.println(mylisr1);//能直接输出原始Arraylist
         mylisr1.remove(2);//删除index=2的元素，并将后面的元素黔移，顺序连续存储，增删效率较低
         out.println("mylisr1的大小是"+mylisr1.size()+" .第2个数字是"+mylisr1.get(2-1));
+
+        //练习使用Set接口
+        Set<UpdateStu> stu_set=new TreeSet<>();
+        stu_set.add(new UpdateStu(13,"13"));
+        UpdateStu stu1=new UpdateStu(34,"34");
+        stu_set.add(stu1);
+        stu_set.add(new UpdateStu(55,"55"));
+        stu_set.add(new UpdateStu(66,"66"));
+        stu_set.add(new UpdateStu(78,"78"));
+        Iterator<UpdateStu> it_of_stu_set=stu_set.iterator();//迭代器本身指向首位置之前的位置
+       while (it_of_stu_set.hasNext()){
+           UpdateStu stu=it_of_stu_set.next();  //next()方法的含义是，迭代器向后移动一位
+           out.println(stu.getId()+"  "+stu.getName());
+       }
+
+       it_of_stu_set=((TreeSet<UpdateStu>) stu_set).headSet(stu1).iterator();  //由于只有treeset才有顺序的概念，因此，先要把set转型成treeset
+        while (it_of_stu_set.hasNext()){
+            UpdateStu stu=it_of_stu_set.next();  //next()方法的含义是，迭代器向后移动一位
+            out.println(stu.getId()+"  "+stu.getName());
+        }
+
+        //map接口练习
+
+
 
 
 
