@@ -164,7 +164,41 @@ public class Class_main {
             out.println(stu.getId()+"  "+stu.getName());
         }
 
-        //map接口练习
+        //map接口和map集合练习
+        Map<Integer,String> stu_map=new HashMap<>();//向上转型，子类实例引用赋值给父类，map类的实现类有 hashmap 和 treemap
+        stu_map.put(123,"123");//map集合没有
+        stu_map.put(12,"12");
+        stu_map.put(23,"23");
+        stu_map.put(1234,"1234");
+        Set<Integer> ketset_of_stu_map=stu_map.keySet();//将键值提取出来为set集合
+        Iterator<Integer> it_of_omteger=ketset_of_stu_map.iterator();
+        while(it_of_omteger.hasNext()){ //遍历键值集合并打印
+            Integer integer_object= it_of_omteger.next();
+            out.println(integer_object+"   "+stu_map.get(integer_object));
+        }
+        Collection<String> collection_of_values_of_stu_map=stu_map.values();
+        Iterator<String> it_of_string=collection_of_values_of_stu_map.iterator();
+        while (it_of_string.hasNext()){
+            out.println(it_of_string.next());
+        }
+
+        //将hashmap类作为map集合的实现类，遍历该集合，并创建treemap实现map集合中元素的顺序输出
+        Map<Integer,String> stu_treemap=new TreeMap<>(new Comparator<Integer>() {
+            @Override //o1为原先的元素，o2为新加进的元素
+            public int compare(Integer o1, Integer o2) {
+                return o2-o1; //按照后一个元素较大的顺序
+            }
+        });
+        stu_treemap.put(123,"123");//map集合没有
+        stu_treemap.put(12,"12");
+        stu_treemap.put(23,"23");
+        stu_treemap.put(1234,"1234");
+        out.println(stu_treemap);
+
+
+
+
+
 
 
 
