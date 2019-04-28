@@ -1,6 +1,9 @@
 package default_package;
 
 import javax.swing.text.html.HTMLDocument;
+import javax.tools.StandardJavaFileManager;
+import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 import static java.lang.System.out;//导入静态变量
@@ -194,6 +197,28 @@ public class Class_main {
         stu_treemap.put(23,"23");
         stu_treemap.put(1234,"1234");
         out.println(stu_treemap);
+
+        //file类练习
+        java.io.File instance_of_File=new File("instance_of_File.txt");//创建文件对象
+        if(instance_of_File.exists()){
+            out.println("instance_of_File exists!");
+            instance_of_File.delete();//删除文件，删除的是文件还是对象？？？？结果表面，删除文件实例对象，就是删除文件本身！和C++有区别
+            out.println("文件已删除！");
+
+        }else{//文件不存在时，尝试创建文件
+            try{
+                instance_of_File.createNewFile();//在磁盘中创建文件对象，且必须有IO异常捕捉
+                out.println("文件已创建！");
+
+            }catch(IOException e){
+                out.println(e);//可以直接打印出
+                //e.printStackTrace();也可以直接使用异常自带的打印输出方法
+            }
+        }
+
+
+
+
 
 
 

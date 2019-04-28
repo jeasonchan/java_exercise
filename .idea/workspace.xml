@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/UpdateStu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/UpdateStu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,7 +33,29 @@
     <favorites_list name="java_exercise_based_on_idea" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="197" column="37" lean-forward="true" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/default_package/Class_nei_bu_lei_lian_xi.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_yi_chang_lian_xi.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
       </list>
     </option>
@@ -73,10 +96,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="50" />
+    <option name="x" value="-5" />
+    <option name="y" value="39" />
     <option name="width" value="1228" />
-    <option name="height" value="1056" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -98,6 +121,19 @@
               <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="java_exercise_based_on_idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
@@ -130,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556379764344" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556464867018" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -199,16 +235,17 @@
       <workItem from="1556332136357" duration="1862000" />
       <workItem from="1556356517619" duration="1368000" />
       <workItem from="1556372879985" duration="5015000" />
+      <workItem from="1556450277730" duration="7633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111333000" />
+    <option name="totallyTimeSpent" value="118966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="50" width="1228" height="1056" extended-state="0" />
+    <frame x="-5" y="39" width="1228" height="1058" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.23715754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.24143836" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -217,8 +254,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.3167028" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31601733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,10 +431,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_yi_chang_lian_xi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="817">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding>
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#394#395#0" expanded="true" />
@@ -407,24 +455,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="179" column="55" lean-forward="true" selection-start-line="179" selection-start-column="55" selection-end-line="179" selection-end-column="55" />
+        <state relative-caret-position="228">
+          <caret line="197" column="37" lean-forward="true" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7331#7332#0" expanded="true" />
-            <element signature="e#7386#7387#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java">
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
