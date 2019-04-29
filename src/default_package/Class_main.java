@@ -198,7 +198,7 @@ public class Class_main {
         stu_treemap.put(1234,"1234");
         out.println(stu_treemap);
 
-        //file类练习
+        //file类,文件创建、删除练习
         java.io.File instance_of_File=new File("instance_of_File.txt");//创建文件对象
         if(instance_of_File.exists()){
             out.println("instance_of_File exists!");
@@ -215,6 +215,24 @@ public class Class_main {
                 //e.printStackTrace();也可以直接使用异常自带的打印输出方法
             }
         }
+
+        //练习获取file类详细信息
+        File instance_of_file_2=new File("instance_of_file_2.txt");
+        try{
+            instance_of_file_2.createNewFile();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
+        if(instance_of_file_2.exists()){
+            out.println(instance_of_file_2.getName());
+            out.println("文件的字节大小为："+instance_of_file_2.length());
+            out.println("文件的隐藏状态是："+instance_of_file_2.isHidden());
+        }
+
+        //文件输入输出流
+
+
 
 
 
