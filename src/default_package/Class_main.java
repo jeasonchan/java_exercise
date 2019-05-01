@@ -3,6 +3,8 @@ package default_package;
 import javax.swing.text.html.HTMLDocument;
 import javax.tools.StandardJavaFileManager;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.*;
 
@@ -230,7 +232,45 @@ public class Class_main {
             out.println("文件的隐藏状态是："+instance_of_file_2.isHidden());
         }
 
-        //文件输入输出流
+        //文件输入和文件输出流，和上面的文件类有一定的区别，上文的文件类只负责创建“空”文件，具体内容的写入依靠文件流类
+        //使用fileinputstream和fileoutputstream，输入流意思是，从文件向程序输入数据流，输出的意思是，从程序向外输出数据流
+        File instance_of_file3=new File("instance_of_file3");//创建文件，供文件输入输出流使用
+        try{
+            FileOutputStream instance_of_fileoutputstream=new FileOutputStream(instance_of_file3);//实例化输出流实例
+            byte[] out_byte="Go big and go home!".getBytes();//字符串转为字节，IO流的操作对象是字节，本质为字节流
+            instance_of_fileoutputstream.write(out_byte);//将字节数组写入到文件中
+            instance_of_fileoutputstream.close();//关闭输出流
+
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        out.println("写入数据后的大小是"+instance_of_file3.length());
+        try{
+            FileInputStream instance_of_fileinputstream=new FileInputStream(instance_of_file3);
+            byte[] in_byte=new byte[1024];
+            int length=instance_of_fileinputstream.read(in_byte);//读取文件中的字节流，存储到字节数组中，并返回字节流的长度
+            instance_of_fileinputstream.close();//关闭输出流
+            out.println(new String(in_byte,0,length));//以字节数组的方式创建字符串并输出
+
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
+        //filereader类和filewriter类，字符流，避免多字节字符的乱码现象
+        //输出输出这种字节处理流的用法一样，只不过不再使用字节数组作为载体，而是字符串
+
+        //带缓存的输入输出流 bufferinputstream和bufferoutstream
+        //带缓存的是一种性能优化，是在流上进行skip，mark和reset成文可能
+
+
+
+
+
+
+
+
+
+
 
 
 
