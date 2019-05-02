@@ -34,8 +34,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="258" column="50" lean-forward="true" selection-start-line="258" selection-start-column="50" selection-end-line="258" selection-end-column="50" />
+<<<<<<< HEAD
+            <state relative-caret-position="316">
+              <caret line="265" column="68" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
+=======
+            <state relative-caret-position="468">
+              <caret line="266" selection-start-line="266" selection-end-line="266" />
+>>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -92,9 +97,15 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="36" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="115" />
+    <option name="y" value="41" />
+>>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
     <option name="width" value="1228" />
     <option name="height" value="1058" />
   </component>
@@ -106,17 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java_exercise_based_on_idea" type="58d84e3e:PackageViewProjectNode" />
-              <item name="java_exercise_based_on_idea" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,6 +157,17 @@
             <path>
               <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java_exercise_based_on_idea" type="58d84e3e:PackageViewProjectNode" />
+              <item name="java_exercise_based_on_idea" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -238,18 +249,70 @@
       <workItem from="1556372879985" duration="5015000" />
       <workItem from="1556450277730" duration="7633000" />
       <workItem from="1556524497690" duration="4539000" />
+<<<<<<< HEAD
       <workItem from="1556637387806" duration="10536000" />
+      <workItem from="1556770972726" duration="4778000" />
+=======
+      <workItem from="1556637387806" duration="11154000" />
+>>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134041000" />
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="138819000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="36" width="1228" height="1058" extended-state="0" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="134659000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="115" y="41" width="1228" height="1058" extended-state="0" />
+>>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" weight="0.2246596" />
+      <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31601733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.2792208" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.22017354" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32962328" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32962328" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,7 +341,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.32962328" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -380,13 +443,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="879" column="16" selection-start-line="879" selection-start-column="16" selection-end-line="879" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java" />
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_overload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -457,23 +514,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instance_of_File.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/instance_of_File.txt" />
     <entry file="file://$PROJECT_DIR$/instance_of_file3">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="258" column="50" lean-forward="true" selection-start-line="258" selection-start-column="50" selection-end-line="258" selection-end-column="50" />
+<<<<<<< HEAD
+        <state relative-caret-position="316">
+          <caret line="265" column="68" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
+=======
+        <state relative-caret-position="468">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+>>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

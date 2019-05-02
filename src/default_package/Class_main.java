@@ -259,9 +259,12 @@ public class Class_main {
         //filereader类和filewriter类，字符流，避免多字节字符的乱码现象
         //输出输出这种字节处理流的用法一样，只不过不再使用字节数组作为载体，而是字符串
 
-        //带缓存的输入输出流 bufferinputstream和bufferoutstream
-        //带缓存的是一种性能优化，是在流上进行skip，mark和reset成文可能
-
+        /*带缓存的输入输出流bufferedinputstream和bufferedoutstream
+        带缓存的是一种性能优化，是在流上进行skip，mark和reset成文可能
+        就是对原本的文件输入输出流进行包装，增加缓存功能
+        带缓存的字节流输入（Input）类的工作过程：文件（字节数据）→Fileinputstream→Bufferedinputstream→程序
+        带缓存的字符流写入（writer或者Output）工作过程：文件（字符数据）→BufferedWriter→Output
+        */
 
 
 
