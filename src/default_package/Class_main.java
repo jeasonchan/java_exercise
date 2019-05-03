@@ -230,12 +230,12 @@ public class Class_main {
             out.println("文件的隐藏状态是："+instance_of_file_2.isHidden());
         }
 
-<<<<<<< HEAD
+
         //文件输入和文件输出流，和上面的文件类有一定的区别，上文的文件类只负责创建“空”文件，具体内容的写入依靠文件流类
         //使用fileinputstream和fileoutputstream，输入流意思是，从文件向程序输入数据流，输出的意思是，从程序向外输出数据流
         File instance_of_file3=new File("instance_of_file3");//创建文件，供文件输入输出流使用
         try{
-            FileOutputStream instance_of_fileoutputstream=new FileOutputStream(instance_of_file3);//实例化输出流实例
+            java.io.FileOutputStream instance_of_fileoutputstream=new java.io.FileOutputStream(instance_of_file3);//实例化输出流实例
             byte[] out_byte="Go big and go home!".getBytes();//字符串转为字节，IO流的操作对象是字节，本质为字节流
             instance_of_fileoutputstream.write(out_byte);//将字节数组写入到文件中
             instance_of_fileoutputstream.close();//关闭输出流
@@ -245,7 +245,7 @@ public class Class_main {
         }
         out.println("写入数据后的大小是"+instance_of_file3.length());
         try{
-            FileInputStream instance_of_fileinputstream=new FileInputStream(instance_of_file3);
+            java.io.FileInputStream instance_of_fileinputstream=new java.io.FileInputStream(instance_of_file3);
             byte[] in_byte=new byte[1024];
             int length=instance_of_fileinputstream.read(in_byte);//读取文件中的字节流，存储到字节数组中，并返回字节流的长度
             instance_of_fileinputstream.close();//关闭输出流
@@ -271,9 +271,6 @@ public class Class_main {
 
 
 
-=======
-        //文件输入输出流
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
 
 
 

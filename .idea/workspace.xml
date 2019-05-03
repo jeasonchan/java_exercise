@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,18 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state relative-caret-position="316">
-              <caret line="265" column="68" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
-=======
-            <state relative-caret-position="468">
-              <caret line="266" selection-start-line="266" selection-end-line="266" />
->>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
-=======
-            <state relative-caret-position="145">
-              <caret line="218" column="23" lean-forward="true" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
+            <state relative-caret-position="472">
+              <caret line="250" column="55" lean-forward="true" selection-start-line="250" selection-start-column="55" selection-end-line="250" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -101,19 +92,9 @@
       <select />
     </treeState>
   </component>
-<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
-<<<<<<< HEAD
     <option name="y" value="36" />
-=======
-  <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="41" />
->>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
-=======
-    <option name="y" value="39" />
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
     <option name="width" value="1228" />
     <option name="height" value="1058" />
   </component>
@@ -162,6 +143,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="default_package" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -182,12 +167,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556528402003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556675724429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,52 +237,20 @@
       <workItem from="1556356517619" duration="1368000" />
       <workItem from="1556372879985" duration="5015000" />
       <workItem from="1556450277730" duration="7633000" />
-<<<<<<< HEAD
       <workItem from="1556524497690" duration="4539000" />
-<<<<<<< HEAD
       <workItem from="1556637387806" duration="10536000" />
-      <workItem from="1556770972726" duration="4778000" />
-=======
-      <workItem from="1556637387806" duration="11154000" />
->>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
-=======
-      <workItem from="1556524497690" duration="3159000" />
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
+      <workItem from="1556859529850" duration="142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="138819000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="134183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="122125000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-5" y="39" width="1228" height="1058" extended-state="0" />
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
-=======
-    <option name="totallyTimeSpent" value="134659000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="115" y="41" width="1228" height="1058" extended-state="0" />
->>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
     <layout>
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" weight="0.2246596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -306,17 +259,17 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31601733" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31545064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.2792208" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.22017354" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21995708" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,40 +280,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.2246596" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.24571918" />
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
-      <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.31601733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.2792208" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.22017354" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32962328" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32962328" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -462,7 +381,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="879" column="16" selection-start-line="879" selection-start-column="16" selection-end-line="879" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_overload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -534,38 +459,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/instance_of_File.txt" />
-    <entry file="file://$PROJECT_DIR$/instance_of_file3">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/instance_of_file3" />
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="250" column="55" lean-forward="true" selection-start-line="250" selection-start-column="55" selection-end-line="250" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="316">
-          <caret line="265" column="68" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
-=======
-        <state relative-caret-position="468">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
->>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
-=======
-    <entry file="file://$PROJECT_DIR$/instance_of_File.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="218" column="23" lean-forward="true" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
->>>>>>> parent of a81cc54... 2019年5月1日22:12:48
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
