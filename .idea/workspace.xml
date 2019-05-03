@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,12 +34,17 @@
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="316">
               <caret line="265" column="68" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
 =======
             <state relative-caret-position="468">
               <caret line="266" selection-start-line="266" selection-end-line="266" />
 >>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
+=======
+            <state relative-caret-position="145">
+              <caret line="218" column="23" lean-forward="true" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,12 +104,16 @@
 <<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
+<<<<<<< HEAD
     <option name="y" value="36" />
 =======
   <component name="ProjectFrameBounds">
     <option name="x" value="115" />
     <option name="y" value="41" />
 >>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
+=======
+    <option name="y" value="39" />
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
     <option name="width" value="1228" />
     <option name="height" value="1058" />
   </component>
@@ -154,10 +162,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="default_package" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,12 +182,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556675724429" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556528402003" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -248,6 +252,7 @@
       <workItem from="1556356517619" duration="1368000" />
       <workItem from="1556372879985" duration="5015000" />
       <workItem from="1556450277730" duration="7633000" />
+<<<<<<< HEAD
       <workItem from="1556524497690" duration="4539000" />
 <<<<<<< HEAD
       <workItem from="1556637387806" duration="10536000" />
@@ -255,10 +260,14 @@
 =======
       <workItem from="1556637387806" duration="11154000" />
 >>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
+=======
+      <workItem from="1556524497690" duration="3159000" />
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="138819000" />
   </component>
@@ -273,6 +282,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="122125000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="39" width="1228" height="1058" extended-state="0" />
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
     <editor active="true" />
 =======
     <option name="totallyTimeSpent" value="134659000" />
@@ -281,6 +296,7 @@
     <frame x="115" y="41" width="1228" height="1058" extended-state="0" />
 >>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" weight="0.2246596" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
@@ -313,6 +329,9 @@
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.2246596" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.24571918" />
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,8 +339,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31601733" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.31601733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,6 +544,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -534,6 +554,15 @@
         <state relative-caret-position="468">
           <caret line="266" selection-start-line="266" selection-end-line="266" />
 >>>>>>> 9de9d42c568c73b3f356d7ef582ef50984688e87
+=======
+    <entry file="file://$PROJECT_DIR$/instance_of_File.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="218" column="23" lean-forward="true" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

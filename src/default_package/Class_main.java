@@ -3,8 +3,6 @@ package default_package;
 import javax.swing.text.html.HTMLDocument;
 import javax.tools.StandardJavaFileManager;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.*;
 
@@ -232,6 +230,7 @@ public class Class_main {
             out.println("文件的隐藏状态是："+instance_of_file_2.isHidden());
         }
 
+<<<<<<< HEAD
         //文件输入和文件输出流，和上面的文件类有一定的区别，上文的文件类只负责创建“空”文件，具体内容的写入依靠文件流类
         //使用fileinputstream和fileoutputstream，输入流意思是，从文件向程序输入数据流，输出的意思是，从程序向外输出数据流
         File instance_of_file3=new File("instance_of_file3");//创建文件，供文件输入输出流使用
@@ -272,6 +271,9 @@ public class Class_main {
 
 
 
+=======
+        //文件输入输出流
+>>>>>>> parent of a81cc54... 2019年5月1日22:12:48
 
 
 
