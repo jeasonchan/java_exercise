@@ -265,6 +265,10 @@ public class Class_main {
         带缓存的字符流写入（writer或者Output）工作过程：文件（字符数据）→BufferedWriter→Output
         */
 
+        //向磁盘文件中写入数据，并通过bufferedreader读取文件信息并显示
+
+
+
 
 
 
