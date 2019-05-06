@@ -267,6 +267,21 @@ public class Class_main {
 
         //向磁盘文件中写入数据，并通过bufferedreader读取文件信息并显示
 
+        //
+        Class_sheng_cheng_全排列 instance_of_Class_sheng_cheng_全排列=new Class_sheng_cheng_全排列();
+        instance_of_Class_sheng_cheng_全排列.generate_and_check();
+        out.println(instance_of_Class_sheng_cheng_全排列.out_text);
+
+
+
+
+        //
+        Class_input_and_output instance_of_Class_input_and_output=new Class_input_and_output();
+        instance_of_Class_input_and_output.set_path();
+        instance_of_Class_input_and_output.read_text_to_stream();
+        instance_of_Class_input_and_output.write_stream_to_text();
+
+
 
 
 
