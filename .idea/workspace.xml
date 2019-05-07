@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_input_and_output.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_sheng_cheng_全排列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +36,20 @@
     <favorites_list name="java_exercise_based_on_idea" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="284" column="57" selection-start-line="284" selection-start-column="57" selection-end-line="284" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,8 +80,8 @@
         <option value="$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
       </list>
     </option>
   </component>
@@ -76,10 +92,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-18" />
-    <option name="y" value="57" />
+    <option name="x" value="-1" />
+    <option name="y" value="40" />
     <option name="width" value="1226" />
-    <option name="height" value="1058" />
+    <option name="height" value="1071" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,24 +111,6 @@
             <path>
               <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="java_exercise_based_on_idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
@@ -133,6 +131,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -144,13 +143,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557166539078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557245802934" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -224,16 +222,17 @@
       <workItem from="1556637387806" duration="10536000" />
       <workItem from="1556859529850" duration="4393000" />
       <workItem from="1557064478726" duration="16218000" />
+      <workItem from="1557239406713" duration="6338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154652000" />
+    <option name="totallyTimeSpent" value="160990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="57" width="1226" height="1058" extended-state="0" />
+    <frame x="-1" y="40" width="1226" height="1071" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.25900516" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.22813036" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -242,7 +241,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.3181818" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.3180363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,7 +251,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.2792208" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.21969697" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21878335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -456,19 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_input_and_output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="72" column="187" selection-start-line="72" selection-start-column="187" selection-end-line="72" selection-end-column="187" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="method#input_sth#0;class#Class_input_and_output#0" />
-            <element signature="method#read#0;class#Class_input_and_output#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -479,10 +465,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="168" column="50" lean-forward="true" selection-start-line="168" selection-start-column="50" selection-end-line="168" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_input_and_output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="281" column="66" selection-start-line="281" selection-start-column="66" selection-end-line="281" selection-end-column="66" />
+        <state relative-caret-position="132">
+          <caret line="284" column="57" selection-start-line="284" selection-start-column="57" selection-end-line="284" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -265,21 +265,52 @@ public class Class_main {
         带缓存的字符流写入（writer或者Output）工作过程：文件（字符数据）→BufferedWriter→Output
         */
 
-        //向磁盘文件中写入数据，并通过bufferedreader读取文件信息并显示
+        //向磁盘文件中写入数据，并通过bufferedreader读取文件信息并分行显式
+        String counter[]={"好久不见","最近好吗","常联系"};
+        java.io.File instance_of_file4=new java.io.File("instance_of_file4");
+        if(instance_of_file4.exists()){//文件存在时，就先删除文件
+            instance_of_file4.delete();
+            try {
+                instance_of_file4.createNewFile();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }
 
-        //
-        Class_sheng_cheng_全排列 instance_of_Class_sheng_cheng_全排列=new Class_sheng_cheng_全排列();
-        instance_of_Class_sheng_cheng_全排列.generate_and_check();
-        out.println(instance_of_Class_sheng_cheng_全排列.out_text);
+        try{
+            java.io.FileWriter instanceOfFileWriter=new java.io.FileWriter(instance_of_file4);//由于构造方法必须要有File实例进行初始化，因此写入操作必须创建文件对象
+            java.io.BufferedWriter instanceOfBufferedWriter=new java.io.BufferedWriter(instanceOfFileWriter);//同理，带缓存的写入流初始化的前提是普通的文件写入流
+            for(String i:counter){
+                instanceOfBufferedWriter.write(i);
+                instanceOfBufferedWriter.newLine();//另起一行
+            }
+            instanceOfBufferedWriter.close();
+            instanceOfFileWriter.close();
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        try{
+            java.io.FileReader instanceOfFileReader=new java.io.FileReader(instance_of_file4);
+            java.io.BufferedReader instanceOfBufferedReadwe=new java.io.BufferedReader(instanceOfFileReader);
+            String tempString=null;//字符串并未初始化，指针没指向任何内存地址
+            int i=0;
+            while ((tempString=instanceOfBufferedReadwe.readLine())!=null){//读取到了东西，则有指向，没读到东西则指向null，即，读到东西了才进行循环
+                i++;
+                System.out.println("第"+i+"行："+tempString);
+            }
+            instanceOfFileReader.close();
+            instanceOfBufferedReadwe.close();
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
 
 
 
 
-        //
-        Class_input_and_output instance_of_Class_input_and_output=new Class_input_and_output();
-        instance_of_Class_input_and_output.set_path();
-        instance_of_Class_input_and_output.read_text_to_stream();
-        instance_of_Class_input_and_output.write_stream_to_text();
+
+
 
 
 
