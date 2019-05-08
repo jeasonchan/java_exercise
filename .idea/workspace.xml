@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_input_and_output.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_sheng_cheng_全排列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/SingleNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +29,8 @@
     <favorites_list name="java_exercise_based_on_idea" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -45,6 +38,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/default_package/ClassReflectExercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
+        <option value="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" />
       </list>
     </option>
   </component>
@@ -148,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557245802934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557331053248" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -223,16 +226,18 @@
       <workItem from="1556859529850" duration="4393000" />
       <workItem from="1557064478726" duration="16218000" />
       <workItem from="1557239406713" duration="6338000" />
+      <workItem from="1557330757771" duration="293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160990000" />
+    <option name="totallyTimeSpent" value="161283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="40" width="1226" height="1071" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.22813036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.23241852" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,16 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
     <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -472,13 +468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_input_and_output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -486,6 +476,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/ClassReflectExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
