@@ -306,6 +306,9 @@ public class Class_main {
             e.printStackTrace();
         }
 
+        //反射练习
+        ClassReflectExercise.runFunction();//直接调用静态方法
+
 
 
 
