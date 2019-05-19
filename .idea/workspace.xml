@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance_of_File.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/ClassReflectExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/ClassReflectExercise.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
+            <state relative-caret-position="298">
               <caret line="309" column="53" selection-start-line="309" selection-start-column="53" selection-end-line="309" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/default_package/ClassReflectExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="365">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,7 +121,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,12 +147,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557331053932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558278538255" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -232,18 +230,18 @@
       <workItem from="1557239406713" duration="6338000" />
       <workItem from="1557330757771" duration="363000" />
       <workItem from="1557669586998" duration="3153000" />
-      <workItem from="1557756763442" duration="2946000" />
+      <workItem from="1557756763442" duration="2994000" />
+      <workItem from="1558245726644" duration="6708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167452000" />
+    <option name="totallyTimeSpent" value="174208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="40" width="1226" height="1071" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.24099486" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" weight="0.24528302" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,7 +250,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.3180363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.19743863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,6 +271,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.24528302" />
+      <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.19743863" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.2792208" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21878335" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32962328" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32962328" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -482,9 +511,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+          <folding>
+            <element signature="e#8167#8168#0" expanded="true" />
+            <element signature="e#8212#8213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="298">
           <caret line="309" column="53" selection-start-line="309" selection-start-column="53" selection-end-line="309" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -494,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/ClassReflectExercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="365">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
