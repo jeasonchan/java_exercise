@@ -310,6 +310,9 @@ public class Class_main {
         ClassReflectExercise.runFunction();//直接调用静态方法
 
 
+        //线程安全/同步练习
+        ExercieseForThread.run();
+
 
 
 
