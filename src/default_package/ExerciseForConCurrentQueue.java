@@ -1,6 +1,6 @@
 package default_package;
 
-import java.util.Queue;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Condition;
@@ -15,18 +15,18 @@ public class ExerciseForConCurrentQueue {
     public static void startTest() throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(2);
 
-        MyBlockingTaskQueen<Task> queue = new MyBlockingTaskQueen<>(1);
+        MyBlockingTaskQueen<Task> queue = new MyBlockingTaskQueen<>(10);
         /*
          * 模拟两个添加任务的线程,共添加2000条任务
          */
         Thread supplier1 = new Thread(()->{
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 100; i++) {
                 queue.put(new Task("task"+System.currentTimeMillis()));
             }
             System.out.println("===============");
         },"生产者1");
         Thread supplier2 = new Thread(()->{
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 100; i++) {
                 queue.put(new Task("task"+System.currentTimeMillis()));
             }
             System.out.println("======================");
@@ -35,8 +35,8 @@ public class ExerciseForConCurrentQueue {
          * 模拟两个处理任务的线程，每个线程分1000条
          */
         Thread consumer = new Thread(()->{
-            for (int i = 0; i < 1000; i++) {
-                queue.handle((task)->System.out.println(Thread.currentThread().getName()+":处理"+task));  //对accept接口方法就进行了实现，产生了一个匿名的实现类
+            for (int i = 0; i < 100; i++) {
+                //queue.handle((task)->System.out.println(Thread.currentThread().getName()+":处理"+task));  //对accept接口方法就进行了实现，产生了一个匿名的实现类
                 queue.handle(new Consumer<Task>() {
                     @Override
                     public void accept(Task task) {
@@ -49,7 +49,7 @@ public class ExerciseForConCurrentQueue {
             latch.countDown();
         },"消费者1");
         Thread consumer2 = new Thread(()->{
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 100; i++) {
                 queue.handle((task)->System.out.println(Thread.currentThread().getName()+":处理"+task));
             }
             System.out.println("c2执行结束");
@@ -78,9 +78,9 @@ public class ExerciseForConCurrentQueue {
     }
 
 
-
-
 }
+
+
 
 class MyBlockingTaskQueen<T> {
 
@@ -102,8 +102,8 @@ class MyBlockingTaskQueen<T> {
     public void put(T task) {
         try{
             lock.lock();
-            while(queue.size()>taskCapacity) {
-                System.out.println(Thread.currentThread().getName()+":任务数量达到上限，当前线程被挂起");
+            while(queue.size()>=taskCapacity) {
+                System.out.println(Thread.currentThread().getName()+":任务数量达到上限，当前线程被挂起。当前大小是："+getSize());
                 cond.await();
             }
             queue.add(task);

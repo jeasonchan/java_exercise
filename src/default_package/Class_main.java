@@ -314,6 +314,13 @@ public class Class_main {
         ExercieseForThread.run();
 
 
+        //并发队列练习
+        try{
+            ExerciseForConCurrentQueue.startTest();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
 
 
 
