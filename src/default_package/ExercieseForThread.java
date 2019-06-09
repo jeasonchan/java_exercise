@@ -12,16 +12,6 @@ public class ExercieseForThread {
         thread3.start();
         thread4.start();
 
-
-
-
-
-
-
-
-
-
-
     }//end public static void run()
 }
 
