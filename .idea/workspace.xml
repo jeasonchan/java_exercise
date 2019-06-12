@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/default_package/ExercieseForThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/ClassReflectExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/ClassReflectExercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Example_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Example_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default_package/Class_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/default_package/Class_main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,23 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="319" lean-forward="true" selection-start-line="319" selection-end-line="319" />
+            <state relative-caret-position="105">
+              <caret line="309" column="47" lean-forward="true" selection-start-line="309" selection-start-column="47" selection-end-line="309" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/default_package/ExercieseForThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -89,8 +75,9 @@
         <option value="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
         <option value="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
         <option value="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
         <option value="$PROJECT_DIR$/src/default_package/ExercieseForThread.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
+        <option value="$PROJECT_DIR$/src/default_package/ExerciseForConCurrentQueue.java" />
       </list>
     </option>
   </component>
@@ -101,10 +88,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="40" />
-    <option name="width" value="1226" />
-    <option name="height" value="1071" />
+    <option name="x" value="390" />
+    <option name="y" value="61" />
+    <option name="width" value="1180" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,7 +102,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,21 +120,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="default_package" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="default_package" type="462c0819:PsiDirectoryNode" />
+              <item name="ExercieseForThread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="default_package" type="462c0819:PsiDirectoryNode" />
+              <item name="ExerciseForConCurrentQueue.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558627622586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558974671813" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,44 +228,70 @@
       <workItem from="1557756763442" duration="2994000" />
       <workItem from="1558245726644" duration="6708000" />
       <workItem from="1558354667578" duration="2049000" />
-      <workItem from="1558625372422" duration="2234000" />
+      <workItem from="1558625372422" duration="2347000" />
+      <workItem from="1558969720445" duration="3413000" />
+      <workItem from="1559056868969" duration="2598000" />
+      <workItem from="1559143974470" duration="1869000" />
+      <workItem from="1559406469500" duration="1863000" />
     </task>
+    <task id="LOCAL-00001" summary="线程练习">
+      <created>1558627675521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558627675521</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1、并发阻塞队列&#10;2、lambda表达式和匿名类感悟&#10;3、接口先使用，后具体实现的新用法">
+      <created>1558974599846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558974599846</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修复并发队列的概念错误，getsize()&gt;=taskcapacity">
+      <created>1559060455115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559060455116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178491000" />
+    <option name="totallyTimeSpent" value="188347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="40" width="1226" height="1071" extended-state="0" />
+    <frame x="390" y="61" width="1180" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.19639795" />
-      <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5005767" side_tool="true" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.3375" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.19936034" />
+      <window_info id="Structure" order="6" weight="0.19936034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.19743863" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.42060086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4527897" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.2792208" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.27896994" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.21878335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.41875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32962328" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32962328" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.23294243" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32962328" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -307,6 +338,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="线程练习" />
+    <MESSAGE value="1、并发阻塞队列&#10;2、lambda表达式和匿名类感悟&#10;3、接口先使用，后具体实现的新用法" />
+    <MESSAGE value="修复并发队列的概念错误，getsize()&gt;=taskcapacity" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复并发队列的概念错误，getsize()&gt;=taskcapacity" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -491,10 +528,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="319" lean-forward="true" selection-start-line="319" selection-end-line="319" />
+        <state relative-caret-position="302">
+          <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="282" column="24" lean-forward="true" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
+          <folding>
+            <element signature="e#10914#10915#0" expanded="true" />
+            <element signature="e#10945#10946#0" expanded="true" />
+            <element signature="e#36051#36052#0" expanded="true" />
+            <element signature="e#36088#36089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/ExerciseForConCurrentQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="86" column="33" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -503,8 +567,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/default_package/ExercieseForThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="309" column="47" lean-forward="true" selection-start-line="309" selection-start-column="47" selection-end-line="309" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
