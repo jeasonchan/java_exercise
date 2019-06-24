@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/dir.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/dir_without_dir.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Captor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/ClassReflectExercise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_10th_chapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_DecimalFormat_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_abstract_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_dui_xiang_lei_xing_zhuan_huan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_duo_tai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_import_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_interface_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_io_stream_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_ji_he_lei_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_nei_bu_lei_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_overload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Class_yi_chang_lian_xi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Do_sth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Example_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Parallelogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Parallelograme_interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/QuardRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/QuardRange_interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Shoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/Tran.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/UpdateStu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/abstract_class_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/draw_interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/my_exceptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/outer_class$inner_class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/outer_class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/outer_class2$inner_class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/outer_class2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/outer_class_3$inner_class_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/outer_class_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/default_package/sub_abstract_class_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="60" column="61" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="61" />
+            <state relative-caret-position="320">
+              <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +45,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.7/commons-compress-1.7.jar!/org/apache/commons/compress/archivers/tar/TarArchiveEntry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="304" column="19" selection-start-line="304" selection-start-column="19" selection-end-line="304" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="608">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#380#381#0" expanded="true" />
@@ -172,8 +134,8 @@
         <option value="$PROJECT_DIR$/src/default_package/ExerciseForConCurrentQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/default_package/UnzipTool.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" />
         <option value="$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" />
       </list>
     </option>
   </component>
@@ -300,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561394774911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561395832450" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -450,7 +412,7 @@
       <workItem from="1559056868969" duration="2598000" />
       <workItem from="1559143974470" duration="1869000" />
       <workItem from="1559406469500" duration="1863000" />
-      <workItem from="1561385250465" duration="9424000" />
+      <workItem from="1561385250465" duration="10507000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -477,15 +439,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithoutDir - 2019.06.25 at 00h 14m 50s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithoutDir" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZipAndUnzipToolTest - 2019.06.25 at 00h 17m 39s.xml">
-      <configuration name="ZipAndUnzipToolTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithoutDir - 2019.06.25 at 00h 18m 12s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithoutDir" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ZipAndUnzipToolTest_unTarFileWithoutDir - 2019.06.25 at 00h 27m 16s.xml">
       <configuration name="ZipAndUnzipToolTest.unTarFileWithoutDir" configurationId="JUnit" />
     </history-entry>
@@ -507,12 +460,22 @@
     <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 42m 19s.xml">
       <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 45m 55s.xml">
+      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 53m 59s.xml">
+      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 54m 41s.xml">
+      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197771000" />
+    <option name="totallyTimeSpent" value="198854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.12162162" />
       <window_info id="Image Layers" order="1" />
@@ -824,10 +787,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.7/commons-compress-1.7.jar!/org/apache/commons/compress/archivers/tar/TarArchiveEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="304" column="19" selection-start-line="304" selection-start-column="19" selection-end-line="304" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="608">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
@@ -838,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="60" column="61" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="61" />
+        <state relative-caret-position="320">
+          <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -39,6 +39,7 @@ public class ZipAndUnzipToolTest {
         List<String> expectedList=new ArrayList<>();
         expectedList.add("file1.txt");
         expectedList.add("file2.txt");
+        expectedList.add("dirInside/");
         expectedList.sort(comparator);
         File file=new File("src\\test\\resources\\dir.tar");
 

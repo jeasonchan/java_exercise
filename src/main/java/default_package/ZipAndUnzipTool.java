@@ -37,54 +37,42 @@ public class ZipAndUnzipTool {
         return fileNameList;
     }
 
-    public static List<String> unTarFile2(File file) {
-        String basePath = file.getParent() + File.separator;
-        TarArchiveInputStream tarArchiveInputStream = null;
+    public static List<String> unTarFile2(File file) throws IOException {
         List<String> fileNamesList = new ArrayList<>();
+        String basePath = file.getParent() + File.separator;
+
+        TarArchiveInputStream tarArchiveInputStream = new TarArchiveInputStream(new FileInputStream(file));
         TarArchiveEntry tarArchiveEntry = null;
-        try {
-            tarArchiveInputStream = new TarArchiveInputStream(new FileInputStream(file));
-            while ((tarArchiveEntry = tarArchiveInputStream.getNextTarEntry()) != null) {
-                fileNamesList.add(tarArchiveEntry.getName());
-                if (tarArchiveEntry.isDirectory()) {
-                    new File(basePath + tarArchiveEntry.getName()).mkdirs();
-                }
-                FileOutputStream fileOutputStream = null;
-                try {
-                    File f = new File(basePath + tarArchiveEntry.getName());
-                    if (!f.getParentFile().exists()) {
-                        f.getParentFile().mkdirs();
-                    }
-                    if (!f.exists()) {
-                        f.createNewFile();
-                    }
-                    fileOutputStream = new FileOutputStream(f);
-                    byte[] bs = new byte[2048];
-                    int len = -1;
-                    while ((len = tarArchiveInputStream.read(bs)) != -1) {
-                        fileOutputStream.write(bs, 0, len);
-                    }
-                    fileOutputStream.flush();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                } finally {
-                    fileOutputStream.close();
-                }
+        while ((tarArchiveEntry = tarArchiveInputStream.getNextTarEntry()) != null) {
+            fileNamesList.add(tarArchiveEntry.getName());
+            if (tarArchiveEntry.isDirectory()) {
+                new File(basePath + tarArchiveEntry.getName()).mkdirs();
+                continue;
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                tarArchiveInputStream.close();
-                // 解压后删除tar包
-                // file.delete();
-            } catch (IOException e) {
-                e.printStackTrace();
+            FileOutputStream fileOutputStream = null;
+
+            File realFile = new File(basePath + tarArchiveEntry.getName());
+            if (!realFile.getParentFile().exists()) {
+                realFile.getParentFile().mkdirs();
             }
+            if (!realFile.exists()) {
+                realFile.createNewFile();
+            }
+            fileOutputStream = new FileOutputStream(realFile);
+            byte[] bufferArray = new byte[2048];
+            int len = -1;
+            while ((len = tarArchiveInputStream.read(bufferArray)) != -1) {
+                fileOutputStream.write(bufferArray, 0, len);
+            }
+            fileOutputStream.flush();
+            fileOutputStream.close();
+
         }
-        // 返回tar包下所有文件名
+        tarArchiveInputStream.close();
+        // file.delete();  //delete origin tar pack
         return fileNamesList;
     }
+
 
 
 }
