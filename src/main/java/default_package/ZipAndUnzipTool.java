@@ -2,45 +2,21 @@ package default_package;
 
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
+import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ZipAndUnzipTool {
-    public static List<String> unTarFile(File file) throws IOException {
-        List<String> fileNameList = new ArrayList<>();
-        String parentPath = file.getParent(); //得到父目录
-        TarArchiveInputStream tarArchiveInputStream = new TarArchiveInputStream(new FileInputStream(file));
 
-        TarArchiveEntry tarArchiveEntry = null;
-
-        while ((tarArchiveEntry = tarArchiveInputStream.getNextTarEntry()) != null) {
-            String name = tarArchiveEntry.getName();
-            fileNameList.add(name);
-            File targetDir = new File(parentPath + "\\" + name);  // 从将父目录下的文件条目新建一个文件对象
-            if (targetDir.getParentFile().exists()) {
-                targetDir.mkdirs();
-            }
-
-            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(targetDir));
-
-            int read = -1;
-            byte[] buffer = new byte[1024];
-            while ((read = tarArchiveInputStream.read(buffer)) != -1) {
-                bufferedOutputStream.write(buffer, 0, read); //将解压出的文件写入到缓冲流中
-            }
-            bufferedOutputStream.close();
-        }
-
-        tarArchiveInputStream.close();
-        return fileNameList;
-    }
 
     public static List<String> unTarFile2(File file) throws IOException {
         List<String> fileNamesList = new ArrayList<>();
         String basePath = file.getParent() + File.separator;
 
+        // 新建压输入流，从将压缩文件转化为流待处理
         TarArchiveInputStream tarArchiveInputStream = new TarArchiveInputStream(new FileInputStream(file));
         TarArchiveEntry tarArchiveEntry = null;
         while ((tarArchiveEntry = tarArchiveInputStream.getNextTarEntry()) != null) {
@@ -61,6 +37,9 @@ public class ZipAndUnzipTool {
             fileOutputStream = new FileOutputStream(realFile);
             byte[] bufferArray = new byte[2048];
             int len = -1;
+            //从当前压缩流读取数据，并写入到缓存数组
+            // 当数组写满时，进入循环体，将缓存数组中的数据写入文件流中，写入结束，进行while循环判断
+            //当数组不满，且压缩流读取到末尾时，返回-1，再次进入循环体
             while ((len = tarArchiveInputStream.read(bufferArray)) != -1) {
                 fileOutputStream.write(bufferArray, 0, len);
             }
@@ -73,6 +52,9 @@ public class ZipAndUnzipTool {
         return fileNamesList;
     }
 
+    public static void tarFile(File file, TarArchiveOutputStream tarArchiveOutputStream) {
+        TarArchiveEntry tarArchiveEntry = new TarArchiveEntry(file);
+    }
 
 
 }
