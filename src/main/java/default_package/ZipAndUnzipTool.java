@@ -5,11 +5,10 @@ import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
 import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.*;
 
 public class ZipAndUnzipTool {
+    public static final String DESK_PATH = "F:\\桌面\\";
 
 
     public static List<String> unTarFile2(File file) throws IOException {
@@ -57,4 +56,38 @@ public class ZipAndUnzipTool {
     }
 
 
+    /*
+    事实证明，无法将一个实体文件通过File映射，转变为文件夹
+     */
+    public static void tryToTranslateFileToDir() throws IOException {
+        File file = new File(DESK_PATH + File.separator + "newFile.txt");
+        if (file.exists()) {
+            if (!file.delete()) {
+                System.out.println("same file delete failure");
+            }
+            file.createNewFile();
+        }
+        file.createNewFile();
+
+        System.out.println("check desktop file and input sth to continue");
+        InputStream is = System.in;
+        System.out.println(is.read());
+
+        File newFile = new File(DESK_PATH + File.separator + "newFile.txt");
+        if (newFile.mkdirs()) {
+            System.out.println("translate success");
+        }
+        System.out.println("translate failure");
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        tryToTranslateFileToDir();
+        Map<String, Object> map = new HashMap<>();
+        Iterator iterator=map.entrySet().iterator();
+
+
+    }
 }
+
+

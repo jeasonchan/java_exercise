@@ -1,6 +1,7 @@
 package default_package;
 
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
@@ -48,5 +49,11 @@ public class ZipAndUnzipToolTest {
 
         Assert.assertEquals(expectedList,list);
 
+    }
+
+
+    @Test
+    public void tryToTranslateFileToDir() throws IOException {
+        ZipAndUnzipTool.tryToTranslateFileToDir();
     }
 }
