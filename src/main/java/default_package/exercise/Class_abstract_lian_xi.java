@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_abstract_lian_xi {
     //抽象类练习

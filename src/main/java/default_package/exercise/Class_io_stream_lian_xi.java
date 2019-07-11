@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_io_stream_lian_xi {
     //输入输出流练习

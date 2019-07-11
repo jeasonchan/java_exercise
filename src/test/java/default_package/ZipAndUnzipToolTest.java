@@ -1,5 +1,6 @@
 package default_package;
 
+import default_package.exercise.ZipAndUnzipTool;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -8,8 +9,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class ZipAndUnzipToolTest {
     Comparator<String> comparator=new Comparator<String>() {
@@ -28,7 +27,7 @@ public class ZipAndUnzipToolTest {
         expectedList.sort(comparator);
         File file=new File("src\\test\\resources\\dir_without_dir.tar");
 
-        List<String> list=ZipAndUnzipTool.unTarFile2(file);
+        List<String> list= ZipAndUnzipTool.unTarFile2(file);
         list.sort(comparator);
 
         Assert.assertEquals(expectedList,list);

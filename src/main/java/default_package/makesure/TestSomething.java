@@ -1,8 +1,7 @@
-package default_package;
+package default_package.makesure;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.Value;
 
 import java.io.*;
 import java.util.HashMap;
@@ -66,7 +65,7 @@ public class TestSomething {
         System.out.println(queue.size());
 
         testSomething1.setMessage("18");
-        queue.remove(testSomething1);
+        queue.remove(testSomething1);//必须重写equal方法才能到实现remove过程中的比较，才能决定是否删除
         System.out.println(queue.size());
 
         Iterator<TestSomething> iterator = queue.iterator();

@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_ji_he_lei_lian_xi {
     //练习集合类

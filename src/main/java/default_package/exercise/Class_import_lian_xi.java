@@ -1,6 +1,6 @@
 //熟悉使用import方法
 
-package default_package;
+package default_package.exercise;
 
 import static java.lang.System.out;//导入静态成员变量，out是变量？？？这个需要查询一下。
 import static java.lang.Math.max;//导入静态成员方法

@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_10th_chapter {
     //第十章，接口、继承与多态

@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 import java.lang.reflect.Constructor;
 

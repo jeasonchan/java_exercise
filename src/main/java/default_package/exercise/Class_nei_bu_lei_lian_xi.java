@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_nei_bu_lei_lian_xi {
     //进行内部类练习

@@ -1,7 +1,5 @@
-package default_package;
+package default_package.exercise;
 
-import javax.swing.text.html.HTMLDocument;
-import javax.tools.StandardJavaFileManager;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;

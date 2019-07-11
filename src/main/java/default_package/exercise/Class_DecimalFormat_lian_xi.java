@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 import java.text.DecimalFormat;
 public class Class_DecimalFormat_lian_xi {

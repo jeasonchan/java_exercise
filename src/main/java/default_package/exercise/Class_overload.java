@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_overload {
     //用于练习函数重载，函数的重载主要是根据参数的类型、个数和顺序来体现

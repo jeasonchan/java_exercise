@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_dui_xiang_lei_xing_zhuan_huan {
     /*对象类型转换，有向上转型和向下转型两种，向上和向下的方向是从继承关系树的方向来看的

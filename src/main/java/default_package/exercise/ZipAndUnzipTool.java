@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;

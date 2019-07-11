@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_interface_lian_xi {
     //接口说白了就是一种特殊的类，名字不同而已，按需“继承”，也可以进行转型

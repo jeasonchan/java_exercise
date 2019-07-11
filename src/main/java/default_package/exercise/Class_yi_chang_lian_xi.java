@@ -1,4 +1,4 @@
-package default_package;
+package default_package.exercise;
 
 public class Class_yi_chang_lian_xi {
     //异常练习
