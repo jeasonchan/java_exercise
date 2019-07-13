@@ -15,10 +15,20 @@ public class Student {
     public static Student newRandomStudent(){
         Student student=new Student();
         student.setNumber(CommonUtil.generateSpecificNumbers(6));
-        student.setAge(2);
-        student.setGrade(1);
+        student.setAge(CommonUtil.generateSpecificNumbers(1));
+        student.setGrade(CommonUtil.generateSpecificNumbers(0));
         student.setName(CommonUtil.generateSpecificString(5));
 
         return student;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "number=" + number +
+                ", age=" + age +
+                ", grade=" + grade +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

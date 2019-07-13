@@ -8,7 +8,7 @@ public class CommonUtilTest {
 
     @Test
     public void generateSpecificNumbers() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println(CommonUtil.generateSpecificNumbers(5));
         }
     }

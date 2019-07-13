@@ -9,7 +9,8 @@ public class CommonUtil {
      */
     public static int generateSpecificNumbers(int expNumber) {
         Random random = new Random();
-        return random.nextInt((int) Math.pow(10, expNumber + 1)) + (int) Math.pow(10, expNumber);
+        return random.nextInt((int) Math.pow(10, expNumber + 1)-(int) Math.pow(10, expNumber))
+                + (int) Math.pow(10, expNumber);
     }
 
     /*
