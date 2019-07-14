@@ -4,8 +4,8 @@ package default_package.exercise;
 import default_package.exercise.bean.Student;
 import lombok.Getter;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.File;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /*
@@ -25,6 +25,9 @@ public class StreamProcess {
 
         List<String> temp= instance.getListMappedByName(instance.getStudentList());
         System.out.println(temp);
+
+        Map<String,Object> map=new HashMap<>();
+
 
 
     }
