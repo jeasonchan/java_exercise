@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/TestSomething.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise_notify_wait/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java_exercise_based_on_idea.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/default_package/ZipAndUnzipTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/default_package/ZipAndUnzipTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/default_package/ZipAndUnzipToolTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/default_package/ZipAndUnzipToolTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/default_package/ZipAndUnzipToolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/default_package/ZipAndUnzipToolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_exercise_based_on_idea/META-INF/java_exercise_based_on_idea.kotlin_module" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +34,6 @@
   <component name="FavoritesManager">
     <favorites_list name="java_exercise_based_on_idea" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/default_package/TestSomething.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -78,159 +51,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Class_DecimalFormat_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/Class_Math_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/Class_10th_chapter.java" />
-        <option value="$PROJECT_DIR$/src/Class_dui_xiang_lei_xing_zhuan_huan.java" />
-        <option value="$PROJECT_DIR$/src/Class_overload.java" />
-        <option value="$PROJECT_DIR$/src/Class_duo_tai.java" />
-        <option value="$PROJECT_DIR$/src/Class_abstract_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/Class_interface_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/Class_main.java" />
-        <option value="$PROJECT_DIR$/src/Class_import_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_import_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_nei_bu_lei_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_yi_chang_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
-        <option value="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" />
-        <option value="$PROJECT_DIR$/src/default_package/ExercieseForThread.java" />
-        <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
-        <option value="$PROJECT_DIR$/src/default_package/ExerciseForConCurrentQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/default_package/UnzipTool.java" />
-        <option value="$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/default_package/TestSomething.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="F:\文档\GitHub\MyMaven" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="30" />
-    <option name="width" value="1197" />
-    <option name="height" value="1417" />
-  </component>
+  <component name="ProjectId" id="1Oh3sZtKDra4klXUUPPgXb5LgZd" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="default_package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="default_package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561995990989" />
@@ -238,10 +71,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -267,7 +101,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSomething">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.list线程安全实践.Main" />
+      <module name="java_exercise_based_on_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_package.list线程安全实践.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSomething" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_package.TestSomething" />
       <module name="java_exercise_based_on_idea" />
@@ -326,29 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipAndUnzipToolTest.unTarFileWithoutDir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_exercise_based_on_idea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="default_package.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="default_package" />
-      <option name="MAIN_CLASS_NAME" value="default_package.ZipAndUnzipToolTest" />
-      <option name="METHOD_NAME" value="unTarFileWithoutDir" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestSomething" />
         <item itemvalue="Application.ZipAndUnzipTool" />
         <item itemvalue="JUnit.ZipAndUnzipToolTest.tryToTranslateFileToDir" />
         <item itemvalue="JUnit.ZipAndUnzipToolTest.unTarFileWithDir" />
-        <item itemvalue="JUnit.ZipAndUnzipToolTest.unTarFileWithoutDir" />
       </list>
     </recent_temporary>
   </component>
@@ -415,6 +246,10 @@
       <workItem from="1561806084348" duration="431000" />
       <workItem from="1561806953797" duration="633000" />
       <workItem from="1561991721110" duration="4223000" />
+      <workItem from="1564416210629" duration="755000" />
+      <workItem from="1564417001844" duration="461000" />
+      <workItem from="1564417474667" duration="122000" />
+      <workItem from="1564496603442" duration="3405000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -472,44 +307,6 @@
       <configuration name="ZipAndUnzipToolTest.tryToTranslateFileToDir" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213953000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="30" width="1197" height="1417" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.29639402" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.19936034" />
-      <window_info id="Structure" order="6" weight="0.20228672" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32583332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.13873734" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4527897" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922825" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.27896994" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.21878335" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.41875" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.31926122" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32962328" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -519,20 +316,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -562,148 +346,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Class_Math_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_DecimalFormat_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_10th_chapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_dui_xiang_lei_xing_zhuan_huan.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_duo_tai.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_abstract_lian_xi.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_overload.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_import_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_nei_bu_lei_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/java_exercise_based_on_idea.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_ji_he_lei_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_yi_chang_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/instance_of_File.txt" />
-    <entry file="file://$PROJECT_DIR$/instance_of_file3" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_io_stream_lian_xi.java" />
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/InputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Class.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/reflect/Constructor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ClassReflectExercise.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_interface_lian_xi.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentLinkedQueue.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ExerciseForConCurrentQueue.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ExercieseForThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_main.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/File.java" />
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/FileOutputStream.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.7/commons-compress-1.7.jar!/org/apache/commons/compress/archivers/tar/TarArchiveEntry.class" />
-    <entry file="jrt://D:/JDK!/java.base/java/io/InputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1319" column="19" selection-start-line="1319" selection-start-column="19" selection-end-line="1319" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/sun/security/util/BitArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="e#5368#5369#0" expanded="true" />
-            <element signature="e#5409#5410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="221" column="28" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/TestSomething.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
