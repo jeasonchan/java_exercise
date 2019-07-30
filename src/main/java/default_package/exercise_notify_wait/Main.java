@@ -29,6 +29,7 @@ public class Main {
 
     /*
     消费者，列表不为空时，去取值并且删除相应的值
+
      */
     public void consumer() {
         while (!stringList.isEmpty()){
