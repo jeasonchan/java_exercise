@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/file和inputStream和outputStream互转/CommonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/file和inputStream和outputStream互转/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,49 @@
   <component name="FavoritesManager">
     <favorites_list name="java_exercise_based_on_idea" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="670" column="51" selection-start-line="670" selection-start-column="34" selection-end-line="670" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,28 +100,165 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Class_DecimalFormat_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/Class_Math_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/Class_10th_chapter.java" />
+        <option value="$PROJECT_DIR$/src/Class_dui_xiang_lei_xing_zhuan_huan.java" />
+        <option value="$PROJECT_DIR$/src/Class_overload.java" />
+        <option value="$PROJECT_DIR$/src/Class_duo_tai.java" />
+        <option value="$PROJECT_DIR$/src/Class_abstract_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/Class_interface_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/Class_main.java" />
+        <option value="$PROJECT_DIR$/src/Class_import_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_import_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_nei_bu_lei_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_yi_chang_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_ji_he_lei_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_io_stream_lian_xi.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
+        <option value="$PROJECT_DIR$/src/default_package/ClassReflectExercise.java" />
+        <option value="$PROJECT_DIR$/src/default_package/ExercieseForThread.java" />
+        <option value="$PROJECT_DIR$/src/default_package/Class_main.java" />
+        <option value="$PROJECT_DIR$/src/default_package/ExerciseForConCurrentQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/UnzipTool.java" />
+        <option value="$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/TestSomething.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/exercise/util/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/default_package/exercise/util/CommonUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/exercise/bean/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/exercise/StreamProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Number.java" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\CRroot\documents\codeproject\MyMaven" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Oh3sZtKDra4klXUUPPgXb5LgZd" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java_exercise_based_on_idea" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="junit:junit:4.11" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="46" />
+    <option name="width" value="1012" />
+    <option name="height" value="1026" />
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="default_package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="default_package" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="default_package" type="462c0819:PsiDirectoryNode" />
+              <item name="makesure" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561995990989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567270240424" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,6 +266,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="default_package.exercise.util" />
       <recent name="default_package" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -101,11 +291,11 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.file和inputStream和outputStream互转.Main" />
+      <option name="MAIN_CLASS_NAME" value="default_package.exercise.H2数据库jdbc练习.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.file和inputStream和outputStream互转.*" />
+          <option name="PATTERN" value="default_package.exercise.H2数据库jdbc练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +304,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.list线程安全实践.Main" />
+      <option name="MAIN_CLASS_NAME" value="default_package.exercise.交换两个整数的值.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.list线程安全实践.*" />
+          <option name="PATTERN" value="default_package.exercise.交换两个整数的值.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.exercise_singleten.Main" />
+    <configuration name="StreamProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.exercise.StreamProcess" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.exercise_singleten.*" />
+          <option name="PATTERN" value="default_package.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,43 +329,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSomething" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.TestSomething" />
+    <configuration name="CommonUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.*" />
+          <option name="PATTERN" value="default_package.exercise.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="default_package.exercise.util" />
+      <option name="MAIN_CLASS_NAME" value="default_package.exercise.util.CommonUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipAndUnzipTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.ZipAndUnzipTool" />
+    <configuration name="CommonUtilTest.generateSpecificNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.*" />
+          <option name="PATTERN" value="default_package.exercise.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZipAndUnzipToolTest.tryToTranslateFileToDir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_exercise_based_on_idea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="default_package.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="default_package" />
-      <option name="MAIN_CLASS_NAME" value="default_package.ZipAndUnzipToolTest" />
-      <option name="METHOD_NAME" value="tryToTranslateFileToDir" />
+      <option name="PACKAGE_NAME" value="default_package.exercise.util" />
+      <option name="MAIN_CLASS_NAME" value="default_package.exercise.util.CommonUtilTest" />
+      <option name="METHOD_NAME" value="generateSpecificNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,9 +364,9 @@
       <list>
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestSomething" />
-        <item itemvalue="Application.ZipAndUnzipTool" />
-        <item itemvalue="JUnit.ZipAndUnzipToolTest.tryToTranslateFileToDir" />
+        <item itemvalue="Application.StreamProcess" />
+        <item itemvalue="JUnit.CommonUtilTest.generateSpecificNumbers" />
+        <item itemvalue="JUnit.CommonUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,14 +433,12 @@
       <workItem from="1561806084348" duration="431000" />
       <workItem from="1561806953797" duration="633000" />
       <workItem from="1561991721110" duration="4223000" />
-      <workItem from="1564416210629" duration="755000" />
-      <workItem from="1564417001844" duration="461000" />
-      <workItem from="1564417474667" duration="122000" />
-      <workItem from="1564496603442" duration="4248000" />
-      <workItem from="1565104550276" duration="621000" />
-      <workItem from="1565276786603" duration="425000" />
-      <workItem from="1565425245391" duration="7254000" />
-      <workItem from="1566225581582" duration="2958000" />
+      <workItem from="1562680643415" duration="1444000" />
+      <workItem from="1562994488062" duration="117000" />
+      <workItem from="1562995098708" duration="17172000" />
+      <workItem from="1563460502793" duration="909000" />
+      <workItem from="1567182371936" duration="1268000" />
+      <workItem from="1567267803658" duration="2269000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -288,36 +465,105 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 39m 36s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest - 2019.07.13 at 14h 36m 30s.xml">
+      <configuration name="CommonUtilTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithoutDir - 2019.06.25 at 00h 42m 11s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithoutDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificString - 2019.07.13 at 14h 36m 59s.xml">
+      <configuration name="CommonUtilTest.generateSpecificString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 42m 19s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest - 2019.07.13 at 14h 37m 04s.xml">
+      <configuration name="CommonUtilTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 45m 55s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificNumbers - 2019.07.13 at 14h 37m 11s.xml">
+      <configuration name="CommonUtilTest.generateSpecificNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 53m 59s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificNumbers - 2019.07.13 at 14h 37m 16s.xml">
+      <configuration name="CommonUtilTest.generateSpecificNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_unTarFileWithDir - 2019.06.25 at 00h 54m 41s.xml">
-      <configuration name="ZipAndUnzipToolTest.unTarFileWithDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificString - 2019.07.13 at 14h 37m 20s.xml">
+      <configuration name="CommonUtilTest.generateSpecificString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_tryToTranslateFileToDir - 2019.06.26 at 22h 56m 24s.xml">
-      <configuration name="ZipAndUnzipToolTest.tryToTranslateFileToDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest - 2019.07.13 at 14h 37m 25s.xml">
+      <configuration name="CommonUtilTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_tryToTranslateFileToDir - 2019.06.26 at 23h 03m 04s.xml">
-      <configuration name="ZipAndUnzipToolTest.tryToTranslateFileToDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificNumbers - 2019.07.14 at 01h 25m 41s.xml">
+      <configuration name="CommonUtilTest.generateSpecificNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_tryToTranslateFileToDir - 2019.06.26 at 23h 05m 16s.xml">
-      <configuration name="ZipAndUnzipToolTest.tryToTranslateFileToDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificNumbers - 2019.07.14 at 01h 29m 27s.xml">
+      <configuration name="CommonUtilTest.generateSpecificNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZipAndUnzipToolTest_tryToTranslateFileToDir - 2019.06.26 at 23h 19m 18s.xml">
-      <configuration name="ZipAndUnzipToolTest.tryToTranslateFileToDir" configurationId="JUnit" />
+    <history-entry file="CommonUtilTest_generateSpecificNumbers - 2019.07.14 at 01h 33m 23s.xml">
+      <configuration name="CommonUtilTest.generateSpecificNumbers" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="237132000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.2521322" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.19936034" />
+      <window_info id="Structure" order="6" weight="0.20228672" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32583332" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.36266094" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.45179373" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32847533" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.277897" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21781115" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.41875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.24360341" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32962328" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.24684873" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.19936034" />
+      <window_info id="Structure" order="6" weight="0.20228672" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32583332" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.20515695" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39806867" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.45179373" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32847533" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.277897" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21860987" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.41875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.24369748" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32962328" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -328,7 +574,20 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -358,5 +617,243 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_overload.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_import_lian_xi.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_nei_bu_lei_lian_xi.java" />
+    <entry file="file://$PROJECT_DIR$/java_exercise_based_on_idea.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_ji_he_lei_lian_xi.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_yi_chang_lian_xi.java" />
+    <entry file="file://$PROJECT_DIR$/instance_of_File.txt" />
+    <entry file="file://$PROJECT_DIR$/instance_of_file3" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_io_stream_lian_xi.java" />
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_sheng_cheng_全排列.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/InputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/default_package/Class_input_and_output.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Class.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/reflect/Constructor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ClassReflectExercise.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_interface_lian_xi.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentLinkedQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ExerciseForConCurrentQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ExercieseForThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Class_main.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/File.java" />
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/FileOutputStream.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.7/commons-compress-1.7.jar!/org/apache/commons/compress/archivers/tar/TarArchiveEntry.class" />
+    <entry file="jrt://D:/JDK!/java.base/java/io/InputStream.class" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/io/InputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/default_package/ZipAndUnzipToolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/io/File.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/System.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/Set.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/sun/security/util/BitArray.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/ZipAndUnzipTool.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/util/Iterator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/TestSomething.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/ZipAndUnzipTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="288" column="25" selection-start-line="288" selection-start-column="25" selection-end-line="288" selection-end-column="25" />
+          <folding>
+            <element signature="e#10982#10983#0" expanded="true" />
+            <element signature="e#11063#11064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/default_package/exercise/util/CommonUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="method#generateSpecificNumbers#0;class#CommonUtilTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="196" column="18" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/StreamProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/util/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="670" column="51" selection-start-line="670" selection-start-column="34" selection-end-line="670" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java_exercise_based_on_idea</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
