@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/交换两个整数的值/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="449">
+              <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.sql/java/sql/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="10000">
               <caret line="670" column="51" selection-start-line="670" selection-start-column="34" selection-end-line="670" selection-end-column="51" />
             </state>
           </provider>
@@ -66,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="560">
               <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
             </state>
           </provider>
@@ -75,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
+            <state relative-caret-position="800">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
@@ -193,6 +183,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,17 +235,20 @@
               <item name="default_package" type="462c0819:PsiDirectoryNode" />
               <item name="makesure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567270240424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567270462086" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -438,7 +432,8 @@
       <workItem from="1562995098708" duration="17172000" />
       <workItem from="1563460502793" duration="909000" />
       <workItem from="1567182371936" duration="1268000" />
-      <workItem from="1567267803658" duration="2269000" />
+      <workItem from="1567267803658" duration="2662000" />
+      <workItem from="1567319798912" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -497,13 +492,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237132000" />
+    <option name="totallyTimeSpent" value="239358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.25479743" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -520,14 +515,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.45179373" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32847533" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20708154" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.277897" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.21781115" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.41875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.24360341" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.24360341" />
       <window_info anchor="right" id="Database" order="5" weight="0.32962328" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -749,34 +744,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        <state relative-caret-position="449">
+          <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.sql/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
+        <state relative-caret-position="10000">
           <caret line="670" column="51" selection-start-line="670" selection-start-column="34" selection-end-line="670" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/default_package/exercise/H2数据库jdbc练习/Main.java">
+    <entry file="jar://C:/CRsoftwares/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="560">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>

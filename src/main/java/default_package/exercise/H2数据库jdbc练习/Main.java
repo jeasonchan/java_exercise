@@ -27,8 +27,14 @@ public class Main {
 
 
         try {
+            //设置全局的数据库超时连接
+            DriverManager.setLoginTimeout(1);
+
             testDbConnection = DriverManager.getConnection(jdbcUrl, userName, passward);
-            //感觉就像是把某个具体的数据库抽象成某个类的实例，就想File类一样
+            //一开始感觉就像是把某个具体的数据库抽象成某个类的实例，就想File类一样
+            //然而，其实这个connection就只是一个“管道”，去的增删查改等操作还需要出通过statement和prepareStatement等借口实现
+
+            //Class.forName(com.h2datebse);  todo h2数据库好像不需要加载jdbc driver
 
             System.out.println(testDbConnection.isReadOnly());
         } catch (SQLException e) {
