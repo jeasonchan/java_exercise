@@ -3,6 +3,7 @@ package default_package.exercise.H2数据库jdbc练习;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Main {
 
@@ -37,6 +38,11 @@ public class Main {
             //Class.forName(com.h2datebse);  todo h2数据库好像不需要加载jdbc driver
 
             System.out.println(testDbConnection.isReadOnly());
+
+            //Statement的实例对象用来执行相关的SQL语句
+            Statement statement=testDbConnection.createStatement();
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
