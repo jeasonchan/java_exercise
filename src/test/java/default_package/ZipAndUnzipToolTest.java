@@ -1,6 +1,5 @@
 package default_package;
 
-import default_package.exercise.ZipAndUnzipTool;
 import org.junit.Assert;
 import org.junit.Test;
 
