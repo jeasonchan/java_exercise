@@ -9,9 +9,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:h2:./testdb";
+        String jdbcUrl = "jdbc:h2:tcp://localhost/C:\\CRroot\\documents\\17706436669";
         String userName = "jeason";
-        String passward = "0425";
+        String passward = "jeason";
         Connection testDbConnection = null;
 
         /*
@@ -33,7 +33,7 @@ public class Main {
 
             testDbConnection = DriverManager.getConnection(jdbcUrl, userName, passward);
             //一开始感觉就像是把某个具体的数据库抽象成某个类的实例，就想File类一样
-            //然而，其实这个connection就只是一个“管道”，去的增删查改等操作还需要出通过statement和prepareStatement等借口实现
+            //然而，其实这个connection就只是一个“管道”，去进行增删查改等操作还需要出通过statement和prepareStatement等借口实现
 
             //Class.forName(com.h2datebse);  todo h2数据库好像不需要加载jdbc driver
 
@@ -42,6 +42,7 @@ public class Main {
             //Statement的实例对象用来执行相关的SQL语句
             Statement statement=testDbConnection.createStatement();
 
+            testDbConnection.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
