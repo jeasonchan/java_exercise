@@ -9,7 +9,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:h2:tcp://localhost/C:\\CRroot\\documents\\17706436669";
+        String jdbcUrl = "jdbc:h2:C:\\CRroot\\documents\\17706436669";//内嵌模式，直接操作文件
+//        String jdbcUrl = "jdbc:h2:tcp://localhost/C:\\CRroot\\documents\\17706436669";//tcp模式，需要手动打开浏览器连接一下
         String userName = "jeason";
         String passward = "jeason";
         Connection testDbConnection = null;
