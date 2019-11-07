@@ -10,6 +10,22 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        Optional<String> stringOptional;
+
+        try {
+
+            Integer integer1 = null;
+            Optional<Integer> optionalInteger = Optional.of(integer1);
+
+
+
+
+
+
+
+
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

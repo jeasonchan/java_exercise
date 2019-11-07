@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/Optional探索/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/Optional探索/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/Optional探索/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,12 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Optional探索/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="384">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -92,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/main/java/default_package/CommonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/default_package/工厂模式和策略模式/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/default_package/工厂模式和策略模式/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/default_package/Optional探索/Main.java" />
       </list>
     </option>
@@ -124,10 +124,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="30" />
-    <option name="width" value="974" />
+    <option name="width" value="1063" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectId" id="1Oh3sZtKDra4klXUUPPgXb5LgZd" />
@@ -192,7 +192,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573054776513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573142526899" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -231,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_package.file和inputStream和outputStream互转.Main" />
       <module name="java_exercise_based_on_idea" />
@@ -284,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.list线程安全实践.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.Optional探索.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.list线程安全实践.*" />
+          <option name="PATTERN" value="default_package.Optional探索.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +397,7 @@
       <workItem from="1572191450548" duration="1098000" />
       <workItem from="1572356959479" duration="5862000" />
       <workItem from="1572771690974" duration="9832000" />
-      <workItem from="1573051307103" duration="1623000" />
+      <workItem from="1573051307103" duration="6181000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -456,13 +456,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24675000" />
+    <option name="totallyTimeSpent" value="29233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="30" width="1063" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29710868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -471,12 +471,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17060086" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17009751" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.25429183" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.25568798" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.26180258" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -547,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="50" selection-start-line="50" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -648,14 +641,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/default_package/Optional探索/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
