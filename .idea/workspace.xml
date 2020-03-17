@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/define_annotation_and_use/HandlerRecordAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/define_annotation_and_use/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/define_annotation_and_use/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e6d8be58-34f3-4d44-86c3-5a1caa7e2f36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e6d8be58-34f3-4d44-86c3-5a1caa7e2f36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_rc2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/DeleteProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/DynamicProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +58,8 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,13 +123,13 @@
       <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.objectMapper序列化泛型类.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.list线程安全实践.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.objectMapper序列化泛型类.*" />
+          <option name="PATTERN" value="default_package.list线程安全实践.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.H2数据库jdbc练习.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.代理模式实现AOP.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.H2数据库jdbc练习.*" />
+          <option name="PATTERN" value="default_package.代理模式实现AOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +300,8 @@
       <workItem from="1574777911700" duration="28000" />
       <workItem from="1576165485328" duration="243000" />
       <workItem from="1576931504308" duration="716000" />
-      <workItem from="1584368263128" duration="2881000" />
+      <workItem from="1584368263128" duration="3540000" />
+      <workItem from="1584448729953" duration="6109000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -394,26 +400,38 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1584371879489" />
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584457747633">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1584457747633" />
     <state x="815" y="317" key="FileChooserDialogImpl" timestamp="1576165726337">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="815" y="317" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1576165726337" />
-    <state width="998" height="189" key="GridCell.Tab.0.bottom" timestamp="1584371971563">
+    <state width="914" height="330" key="GridCell.Tab.0.bottom" timestamp="1584456561779">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="998" height="189" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1584371971563" />
-    <state width="998" height="189" key="GridCell.Tab.0.center" timestamp="1584371971563">
+    <state width="914" height="330" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
+    <state width="914" height="330" key="GridCell.Tab.0.center" timestamp="1584456561779">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="998" height="189" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1584371971563" />
-    <state width="998" height="189" key="GridCell.Tab.0.left" timestamp="1584371971563">
+    <state width="914" height="330" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
+    <state width="914" height="330" key="GridCell.Tab.0.left" timestamp="1584456561779">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="998" height="189" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1584371971563" />
-    <state width="998" height="189" key="GridCell.Tab.0.right" timestamp="1584371971563">
+    <state width="914" height="330" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
+    <state width="914" height="330" key="GridCell.Tab.0.right" timestamp="1584456561779">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="998" height="189" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1584371971563" />
+    <state width="914" height="330" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
+    <state x="970" y="213" key="Maven.ArtifactSearchDialog" timestamp="1584457439271">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="970" y="213" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1584457439271" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1584455980020">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1584455980020" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
