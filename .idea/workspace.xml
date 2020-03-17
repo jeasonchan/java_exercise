@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_rc2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/DeleteProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/CglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/DynamicProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/CglibProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +292,7 @@
       <workItem from="1576165485328" duration="243000" />
       <workItem from="1576931504308" duration="716000" />
       <workItem from="1584368263128" duration="3540000" />
-      <workItem from="1584448729953" duration="6109000" />
+      <workItem from="1584448729953" duration="7506000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
