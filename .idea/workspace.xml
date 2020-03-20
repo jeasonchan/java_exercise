@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/catch中抛出异常/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/代理模式实现AOP/反射实现动态代理/CglibProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_package.list线程安全实践.Main" />
       <module name="java_exercise_based_on_idea" />
@@ -141,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.工厂模式和策略模式.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.catch中抛出异常.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.工厂模式和策略模式.*" />
+          <option name="PATTERN" value="default_package.catch中抛出异常.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +292,8 @@
       <workItem from="1576165485328" duration="243000" />
       <workItem from="1576931504308" duration="716000" />
       <workItem from="1584368263128" duration="3540000" />
-      <workItem from="1584448729953" duration="7506000" />
+      <workItem from="1584448729953" duration="7552000" />
+      <workItem from="1584703974215" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -399,22 +400,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="815" y="317" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1576165726337" />
-    <state width="914" height="330" key="GridCell.Tab.0.bottom" timestamp="1584456561779">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1584704574815">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="330" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
-    <state width="914" height="330" key="GridCell.Tab.0.center" timestamp="1584456561779">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1584704574815" />
+    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1584704574815">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="330" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
-    <state width="914" height="330" key="GridCell.Tab.0.left" timestamp="1584456561779">
+    <state width="1877" height="336" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1584704574815" />
+    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1584704574815">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="330" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
-    <state width="914" height="330" key="GridCell.Tab.0.right" timestamp="1584456561779">
+    <state width="1877" height="336" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1584704574815" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1584704574815">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="914" height="330" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1584456561779" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1584704574815" />
     <state x="970" y="213" key="Maven.ArtifactSearchDialog" timestamp="1584457439271">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
