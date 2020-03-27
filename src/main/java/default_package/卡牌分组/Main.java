@@ -1,4 +1,4 @@
-package com.zte.卡牌分组;
+package default_package.卡牌分组;
 
 import java.util.*;
 

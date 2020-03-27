@@ -10,7 +10,7 @@
       <user-name>jeason</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="17706436669">
+          <node kind="database" negative="1">
             <node kind="schema" negative="1" />
           </node>
         </introspection-scope>
