@@ -1,8 +1,6 @@
 package default_package.单词的压缩;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /*
 给定一个单词列表，我们将这个列表编码成一个索引字符串 S 与一个索引列表 A。
@@ -86,8 +84,48 @@ class Solution {
         return result + template.size();
     }
 
+
+    //字典树解法
+    public int minimumLengthEncoding2(String[] words) {
+        TrieNode trie = new TrieNode();
+        Map<TrieNode, Integer> nodes = new HashMap();
+
+        for (int i = 0; i < words.length; ++i) {
+            String word = words[i];
+            TrieNode cur = trie;
+            for (int j = word.length() - 1; j >= 0; --j)
+                cur = cur.get(word.charAt(j));
+            nodes.put(cur, i);
+        }
+
+        int ans = 0;
+        for (TrieNode node: nodes.keySet()) {
+            if (node.count == 0)
+                ans += words[nodes.get(node)].length() + 1;
+        }
+        return ans;
+
+    }
+
+
     public static void main(String[] args) {
         String[] words = new String[]{"time", "me", "bell"};
         System.out.println(new Solution().minimumLengthEncoding(words));
+    }
+}
+
+class TrieNode {
+    TrieNode[] children;
+    int count;
+    TrieNode() {
+        children = new TrieNode[26];
+        count = 0;
+    }
+    public TrieNode get(char c) {
+        if (children[c - 'a'] == null) {
+            children[c - 'a'] = new TrieNode();
+            count++;
+        }
+        return children[c - 'a'];
     }
 }
