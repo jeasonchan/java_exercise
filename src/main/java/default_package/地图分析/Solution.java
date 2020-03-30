@@ -22,7 +22,9 @@ package default_package.地图分析;
 
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 
 public class Solution {
     final int WATER = 0;
@@ -30,7 +32,6 @@ public class Solution {
 
     public int maxDistance(int[][] grid) {
         int N = grid[0].length;
-
 
 
         Map<Node, Integer> cord2DistanceMap = new HashMap<>();
@@ -58,11 +59,60 @@ public class Solution {
     }
 
 
+    /**
+     * 传进来时，已经保证是海洋的坐标，无需再次判断
+     *
+     * @param grid
+     * @param width
+     * @param height
+     * @return
+     */
     public int getMinDistance(int[][] grid, int width, int height) {
+        int N = grid[0].length;
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(new Node(width, height));
+        Map<Node, Integer> record = new HashMap<>();
+        record.put(new Node(width, height), 0);
+        int[] array_height = new int[]{0, 0, -1, 1};
+        int[] array_width = new int[]{1, -1, 0, 0};
 
 
+        while (!queue.isEmpty()) {
+            Node topNode = queue.poll();//只有没被记录的才会放进队列
+            int topHeight = topNode.height;
+            int topWidth = topNode.width;
+            int topDistance = record.get(topNode);
+            if (LAND == grid[topHeight][topWidth]) return topDistance;
 
-        return 0;
+
+            //查看四个方向的水域
+            for (int direction = 0; direction < 4; ++direction) {
+                int newHeight = topHeight + array_height[direction];
+                int newWidth = topWidth + array_width[direction];
+
+                if (newHeight >= 0 && newHeight < N &&
+                        newWidth >= 0 && newWidth < N) {
+
+                    Node newNode = new Node(newWidth, newHeight);
+                    if (!record.containsKey(newNode)) {//没经过的，放进queue，放进record
+                        queue.add(newNode);
+                        record.put(newNode, topDistance + 1);
+                    }
+
+                }
+            }
+
+
+        }
+
+
+        return -1;//扩散的过程中没碰到任何LAND，直接返回-1
+    }
+
+
+    public static void main(String[] args) {
+        int[][] grid = new int[][]{{1, 0, 1}, {0, 0, 0}, {1, 0, 1}};
+        System.out.println(new Solution().maxDistance(grid));
     }
 
 }
