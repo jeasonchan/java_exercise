@@ -50,7 +50,17 @@ package default_package.地图分析;
 大家可以通过做这些问题，熟悉在二维表格上编码代码的常用技巧：
 1. 设置方向数组，使得向「四面八方」扩散的代码更加紧凑；
 2. 设置是否越界的判断函数 inArea()；
-3. 根据情况，使用二维坐标和一维坐标相互转换的操作，因为二维坐标传入队列的时候，需要封装成数组，创建和销毁数组有一定性能消耗，有些问题如果需要判重，还可能有一点点工作量。二位数组的
+3. 根据情况，使用二维坐标和一维坐标相互转换的操作，因为二维坐标传入队列的时候，需要封装成数组，创建和销毁数组有一定性能消耗，有些问题如果需要判重，还可能有一点点工作量。二位坐标的转换成一维的，就相当于模仿了IDEA或者JDK的默认hashcode()重载，及其实用！
+
+ private int getIndex(int x, int y, int cols) {
+        return x * cols + y;//用于 x y的范围都是 [0,N)，永远不会有重复
+ }
+
+作者：liweiwei1419
+链接：https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/yan-du-you-xian-bian-li-java-by-liweiwei1419/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 
 作者：liweiwei1419
 链接：https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/yan-du-you-xian-bian-li-java-by-liweiwei1419/
@@ -180,7 +190,7 @@ class Node {
     @Override
     public int hashCode() {
         int result = width;
-        result = 31 * result + height;
+        result = 31 * result + height;//这里的31取值不恰当，有可能会有重复！！！！
         return result;
     }
 }
