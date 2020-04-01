@@ -63,21 +63,52 @@ package default_package.有效括号的嵌套深度;
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
+import java.util.Arrays;
 import java.util.Stack;
 
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
-        const String left
+        final char leftSide = '(';
+        final char rightSide = ')';
+        final int inStackA = 0;
+        final int inStackB = 1;
 
-        Stack<String> stackA = new Stack<>();
-        Stack<String> stackB = new Stack<>();
+        Stack<Character> stackA = new Stack<>();
+        Stack<Character> stackB = new Stack<>();
         int[] result = new int[seq.length()];
         for (int i = 0; i < seq.length(); ++i) {
-            if()
+            if (leftSide == seq.charAt(i)) {
+                //左括号哪个栈少，往那个里面加，并记录其所在的栈
+                if (stackA.size() < stackB.size()) {
+                    stackA.push(leftSide);
+                    result[i] = inStackA;
+                } else {
+                    stackB.push(leftSide);
+                    result[i] = inStackB;
+                }
+
+
+            } else {
+                if (stackA.size() > stackB.size()) {
+                    stackA.pop();
+                    result[i] = inStackA;
+                } else {
+                    stackB.pop();
+                    result[i] = inStackB;
+                }
+
+
+            }
 
         }
 
 
-        return null;
+        return result;
+    }
+
+
+    public static void main(String[] args) {
+        String seq = "(()())";
+        System.out.println(Arrays.toString(new Solution().maxDepthAfterSplit(seq)));
     }
 }
