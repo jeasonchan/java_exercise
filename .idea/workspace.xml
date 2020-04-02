@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/单词的压缩/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/包装类测试/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/H2数据库jdbc练习/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/数据库jdbc练习/H2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/数据库练习/MySqlExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/数据库jdbc练习/MySqlExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.trace.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +35,25 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="jdbc:h2:tcp://localhost/C:/CRroot/documents/17706436669" type="feb32156:DbDataSourceImpl" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="jdbc:h2:tcp://localhost/C:/CRroot/documents/17706436669" type="feb32156:DbDataSourceImpl" />
-        <item name="17706436669: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="jdbc:h2:tcp://localhost/C:/CRroot/documents/17706436669" type="feb32156:DbDataSourceImpl" />
-        <item name="17706436669: database" type="2aa06773:H2ImplModel$Database" />
-        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="table1: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -83,7 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -115,13 +133,13 @@
       <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.代理模式实现AOP.Main" />
+  <component name="RunManager" selected="Application.MySqlExercise">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.包装类测试.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.代理模式实现AOP.*" />
+          <option name="PATTERN" value="default_package.包装类测试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.catch中抛出异常.Main" />
+    <configuration name="MySqlExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.数据库jdbc练习.MySqlExercise" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.catch中抛出异常.*" />
+          <option name="PATTERN" value="default_package.数据库jdbc练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.BFS和DFS.Main" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.圆圈中最后剩下的数字.Solution" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.BFS和DFS.*" />
+          <option name="PATTERN" value="default_package.圆圈中最后剩下的数字.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +173,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.排序数组.Solution" />
       <module name="java_exercise_based_on_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_package.排序数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.单词的压缩.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.有效括号的嵌套深度.Solution" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.单词的压缩.*" />
+          <option name="PATTERN" value="default_package.有效括号的嵌套深度.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +200,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MySqlExercise" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.MySqlExercise" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +221,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:root@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:root@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@473c0661" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -291,7 +325,7 @@
       <workItem from="1584865638784" duration="5165000" />
       <workItem from="1585063549917" duration="2765000" />
       <workItem from="1585234820265" duration="7183000" />
-      <workItem from="1585491675760" duration="5439000" />
+      <workItem from="1585491675760" duration="34090000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -328,7 +362,56 @@
       <option name="project" value="LOCAL" />
       <updated>1585241619128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="leetcode">
+      <created>1585497998442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585497998442</updated>
+    </task>
+    <task id="LOCAL-00007" summary="leetcode">
+      <created>1585498358820</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585498358820</updated>
+    </task>
+    <task id="LOCAL-00008" summary="leetcode">
+      <created>1585584813042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585584813042</updated>
+    </task>
+    <task id="LOCAL-00009" summary="leetcode">
+      <created>1585586866194</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585586866194</updated>
+    </task>
+    <task id="LOCAL-00010" summary="leetcode">
+      <created>1585667585219</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585667585219</updated>
+    </task>
+    <task id="LOCAL-00011" summary="leetcode">
+      <created>1585672497540</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585672497540</updated>
+    </task>
+    <task id="LOCAL-00012" summary="leetcode">
+      <created>1585746656106</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585746656106</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -403,50 +486,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584371879489">
+    <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1584371879489" />
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584457747633">
+    <state x="956" y="223" key="#SQL_Dialects/0.30.1920.1050@0.30.1920.1050" timestamp="1585827486692" />
+    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585830114372">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1584457747633" />
-    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1585310646644">
+    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585830114372" />
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1585584437021">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1585310646644" />
-    <state width="916" height="186" key="GridCell.Tab.0.bottom" timestamp="1585496496641">
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1585584437021" />
+    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1585746655204">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="186" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1585496496641" />
-    <state width="916" height="186" key="GridCell.Tab.0.center" timestamp="1585496496641">
+    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1585746655204" />
+    <state width="615" height="240" key="GridCell.Tab.0.bottom" timestamp="1585836908473">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="186" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1585496496641" />
-    <state width="916" height="186" key="GridCell.Tab.0.left" timestamp="1585496496641">
+    <state width="615" height="240" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
+    <state width="615" height="240" key="GridCell.Tab.0.center" timestamp="1585836908473">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="186" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1585496496641" />
-    <state width="916" height="186" key="GridCell.Tab.0.right" timestamp="1585496496641">
+    <state width="615" height="240" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
+    <state width="615" height="240" key="GridCell.Tab.0.left" timestamp="1585836908473">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="186" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1585496496641" />
-    <state width="236" height="477" key="HiddenNamespacesPopup" timestamp="1585239745986">
+    <state width="615" height="240" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
+    <state width="615" height="240" key="GridCell.Tab.0.right" timestamp="1585836908473">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="236" height="477" key="HiddenNamespacesPopup/0.30.1920.1050@0.30.1920.1050" timestamp="1585239745986" />
+    <state width="615" height="240" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
+    <state width="236" height="477" key="HiddenNamespacesPopup" timestamp="1585830143423">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="236" height="477" key="HiddenNamespacesPopup/0.30.1920.1050@0.30.1920.1050" timestamp="1585830143423" />
     <state x="970" y="213" key="Maven.ArtifactSearchDialog" timestamp="1584457439271">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="970" y="213" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1584457439271" />
-    <state x="463" y="200" key="SettingsEditor" timestamp="1585491725501">
+    <state x="463" y="200" key="SettingsEditor" timestamp="1585586712156">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="463" y="200" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1585491725501" />
+    <state x="463" y="200" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1585586712156" />
     <state x="1239" y="333" key="chooseDestDirectoryDialog" timestamp="1585063889203">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1239" y="333" key="chooseDestDirectoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585063889203" />
+    <state x="1108" y="217" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585830675624">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1108" y="217" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585830675624" />
     <state x="92" y="122" width="1736" height="866" key="dock-window-1" timestamp="1584865693604">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

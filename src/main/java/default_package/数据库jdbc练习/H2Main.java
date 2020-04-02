@@ -1,8 +1,8 @@
-package default_package.H2数据库jdbc练习;
+package default_package.数据库jdbc练习;
 
 import java.sql.*;
 
-public class Main {
+public class H2Main {
 
 
     public static void main(String[] args) {

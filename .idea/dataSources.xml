@@ -7,5 +7,12 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:tcp://localhost/$PROJECT_DIR$/../../../17706436669</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="root@localhost" uuid="40e78735-3b7f-4371-9d0e-4ddf1cc35b23">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>123456</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+    </data-source>
   </component>
 </project>
