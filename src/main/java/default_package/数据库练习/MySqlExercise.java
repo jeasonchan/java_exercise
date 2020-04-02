@@ -2,6 +2,7 @@ package default_package.数据库练习;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MySqlExercise {
@@ -42,7 +43,7 @@ public class MySqlExercise {
                 //不同的字段类型，从要从resultSet中调用的不同的get类型方法
                 dataBaseList.add(resultSet.getString(1));
             }
-            System.out.println("origin list is:" + dataBaseList);
+            System.out.println("origin databases list is:" + dataBaseList);
 
 
             //查询有无数据库 test，没有的话就先创建
@@ -59,6 +60,22 @@ public class MySqlExercise {
                 System.out.println("after create, list is:" + dataBaseList);
 
             }
+
+            //在数据库 test 中 创建表
+
+            statement.addBatch("use test;");
+            statement.addBatch("create table table1(id int not null AUTO_INCREMENT," +
+                    "title varchar(100) not null ," +
+                    "author varchar(40) not null ," +
+                    "submission_date date ," +
+                    "primary key(id));");
+
+            int[] ints = statement.executeBatch();
+
+            System.out.println("create table result:" + Arrays.toString(ints));
+
+
+            statement.clearBatch();
 
 
         } catch (ClassNotFoundException | SQLException e) {
@@ -77,5 +94,11 @@ public class MySqlExercise {
         }
 
 
+    }
+
+
+    //todo 手动实现一个连接池
+    public static Connection getConnection(String driverName, String jdbcUrl, String userName, String password) {
+        return null;
     }
 }
