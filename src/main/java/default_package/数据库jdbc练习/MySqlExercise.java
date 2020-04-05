@@ -156,10 +156,23 @@ public class MySqlExercise {
             TimeUnit.SECONDS.sleep(10);
 
 
-            System.out.println("开始connection commit！");
-//            connection.commit();
 
+
+
+
+            
+
+
+
+            System.out.println("开始connection commit！");
+            connection.commit();
         } catch (ClassNotFoundException | SQLException | InterruptedException e) {
+
+            if (null != connection) {
+                System.out.println("开始connection rollback！");
+                connection.rollback();
+            }
+
             e.printStackTrace();
         } finally {
             if (null != connection) {
