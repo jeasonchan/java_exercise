@@ -26,7 +26,7 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" negative="1" />
+          <node kind="schema" qname="test" negative="1" />
         </introspection-scope>
       </schema-mapping>
     </data-source>

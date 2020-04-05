@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/包装类测试/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/H2数据库jdbc练习/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/数据库jdbc练习/H2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/数据库练习/MySqlExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/数据库jdbc练习/MySqlExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/数据库jdbc练习/MySqlExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/数据库jdbc练习/MySqlExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +31,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="table1: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -134,6 +111,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MySqlExercise">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.list的remove验证.Main" />
+      <module name="java_exercise_based_on_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_package.list的remove验证.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_package.包装类测试.Main" />
       <module name="java_exercise_based_on_idea" />
@@ -153,19 +143,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="default_package.数据库jdbc练习.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.圆圈中最后剩下的数字.Solution" />
-      <module name="java_exercise_based_on_idea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="default_package.圆圈中最后剩下的数字.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MySqlExercise" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MySqlExercise" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +197,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.24118738" />
           <treeState>
             <expand>
               <path>
@@ -325,7 +303,7 @@
       <workItem from="1584865638784" duration="5165000" />
       <workItem from="1585063549917" duration="2765000" />
       <workItem from="1585234820265" duration="7183000" />
-      <workItem from="1585491675760" duration="34090000" />
+      <workItem from="1585491675760" duration="43887000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -411,7 +389,28 @@
       <option name="project" value="LOCAL" />
       <updated>1585746656106</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="jdbc mysql 基本操作">
+      <created>1585836950628</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585836950628</updated>
+    </task>
+    <task id="LOCAL-00014" summary="leetCode">
+      <created>1585841005779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585841005779</updated>
+    </task>
+    <task id="LOCAL-00015" summary="验证remove的两种重载，涉及包装类的两种手动装箱、以及拆箱intValue">
+      <created>1585841994792</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585841994792</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -483,7 +482,10 @@
     <MESSAGE value="1、并发阻塞队列&#10;2、lambda表达式和匿名类感悟&#10;3、接口先使用，后具体实现的新用法" />
     <MESSAGE value="修复并发队列的概念错误，getsize()&gt;=taskcapacity" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="jdbc mysql 基本操作" />
+    <MESSAGE value="leetCode" />
+    <MESSAGE value="验证remove的两种重载，涉及包装类的两种手动装箱、以及拆箱intValue" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证remove的两种重载，涉及包装类的两种手动装箱、以及拆箱intValue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
@@ -498,26 +500,26 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1585584437021" />
-    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1585746655204">
+    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1585841993880">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1585746655204" />
-    <state width="615" height="240" key="GridCell.Tab.0.bottom" timestamp="1585836908473">
+    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1585841993880" />
+    <state width="1107" height="214" key="GridCell.Tab.0.bottom" timestamp="1586106054014">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="615" height="240" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
-    <state width="615" height="240" key="GridCell.Tab.0.center" timestamp="1585836908473">
+    <state width="1107" height="214" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586106054014" />
+    <state width="1107" height="214" key="GridCell.Tab.0.center" timestamp="1586106054014">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="615" height="240" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
-    <state width="615" height="240" key="GridCell.Tab.0.left" timestamp="1585836908473">
+    <state width="1107" height="214" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586106054014" />
+    <state width="1107" height="214" key="GridCell.Tab.0.left" timestamp="1586106054014">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="615" height="240" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
-    <state width="615" height="240" key="GridCell.Tab.0.right" timestamp="1585836908473">
+    <state width="1107" height="214" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586106054014" />
+    <state width="1107" height="214" key="GridCell.Tab.0.right" timestamp="1586106054014">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="615" height="240" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1585836908473" />
+    <state width="1107" height="214" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586106054014" />
     <state width="236" height="477" key="HiddenNamespacesPopup" timestamp="1585830143423">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -534,6 +536,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1239" y="333" key="chooseDestDirectoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585063889203" />
+    <state x="1254" y="469" width="343" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586096236682">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1254" y="469" width="343" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.30.1920.1050@0.30.1920.1050" timestamp="1586096236682" />
     <state x="1108" y="217" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585830675624">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -542,10 +548,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1584865693604" />
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1584455980020">
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1586095826853">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1584455980020" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586095826853" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

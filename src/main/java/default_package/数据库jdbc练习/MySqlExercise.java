@@ -33,10 +33,15 @@ public class MySqlExercise {
             Class.forName(driverClassName);
             connection = DriverManager.getConnection(url, username, password);
 
-            connection.setAutoCommit(false);//禁用批处理sql自动事务
+            connection.setAutoCommit(false);//设为false，关闭自动事务；对数据库的更改生效只发生在commit之后
+            // 为true时，每句statement执行都是一条事务；
+
+            //JDBC默认隔离级别是4 可重复读级别，可避免不可重复读，不可避免幻读
+            System.out.println("当前事务隔离级别是：" + connection.getTransactionIsolation());
+
+//            connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
 
             statement = connection.createStatement();
-
 
             ResultSet resultSet = statement.executeQuery("show databases;");
             int index = 0;
@@ -102,9 +107,9 @@ public class MySqlExercise {
             }
 
             //睡眠十秒
-            System.out.println("sleep for 20 sec, check the dataBase test and table table1");
+            System.out.println("sleep for 10 sec, check the dataBase test and table table1");
             try {
-                TimeUnit.SECONDS.sleep(20);
+                TimeUnit.SECONDS.sleep(10);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -135,8 +140,26 @@ public class MySqlExercise {
 
             }
 
+            //练习jdbc中的事务
+            //由于之前的以已设置为  非自动提交，如果不connection.commit()，创库、创表会有效，但增删改数据会无效
+            //设置false，直接close connection  不会触发  commit操作，也就不会
 
-        } catch (ClassNotFoundException | SQLException e) {
+            statement.clearBatch();
+            statement.addBatch("use test;");
+            statement.addBatch("insert into table1 (title,author,submission_date) values ('title','jeason','2020-12-12');");
+            statement.executeBatch();
+
+            System.out.println("查看一下，未提交之前是否已经更新数据！");
+            //实际证明：DML 语句 不进行commit，数据库就不会被改变！！！增删改的实际生效，只在commit之后！！！
+            //不commit，直接退出并不会修改的表数据，为什么还要rollback？？
+            //因为：事务的数据是先更新到日志之中的，只有commit提交之后,才真正再从日志中更新到mysql表中
+            TimeUnit.SECONDS.sleep(10);
+
+
+            System.out.println("开始connection commit！");
+//            connection.commit();
+
+        } catch (ClassNotFoundException | SQLException | InterruptedException e) {
             e.printStackTrace();
         } finally {
             if (null != connection) {
