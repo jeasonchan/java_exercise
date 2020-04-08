@@ -34,7 +34,10 @@ import java.util.Map;
 import java.util.Queue;
 
 class Solution {
-    public int movingCount(int m, int n, int k) {
+    /*
+    广度优先搜索==========================================
+     */
+    public int movingCount_bfs(int m, int n, int k) {
         int result = 0;
         Queue<Node> queue = new LinkedList<>();
         Map<Node, Integer> record = new HashMap<>();//本体可以不用Map，因为不需要求最短距离，直接使用List即可
@@ -80,12 +83,93 @@ class Solution {
         return record.size();
     }
 
-//    public static void main(String[] args) {
-//        System.out.println(new Solution().movingCount(11, 8, 16));
-//    }
+
+    /*
+    深度优先搜索==========================================
+     */
+
+
+
+
+    /*
+    动态规划：
+    设dp(i,i)表示，i行j列处的坐标是否可达
+
+    则，dp(i,j)=
+    if(i,j的数位和超过的k) {
+        return false
+
+    } else {
+        return dp(i-1,j) || dp(i,j-1)
+
+    }
+     */
+
+    /*
+    动态规划，递归实现
+     */
+    public int movingCount_dp_递归实现(int m, int n, int k) {
+        Map<Node, Boolean> record = new HashMap<>(); //用于递归加速
+        /*
+        因为，private boolean checkIfReachable(int i, int j, int k)  要求 i>=1 && j>=1
+        所以，边界条件包括  0，0    0，1    1，0  三种情况
+         */
+        record.put(new Node(0, 0), true);
+        record.put(new Node(0, 1), true);
+        record.put(new Node(1, 0), true);
+
+        int result = 0;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                boolean temp = checkIfReachable(i, j, k, record);
+                if (temp) {
+                    System.out.println(i + " " + j + " " + temp);
+                    ++result;
+                }
+            }
+        }
+
+        return result;
+    }
+
+
+    /*
+    dp(i,j)动态规划，状态转移方程实现
+    i>=1 && j>=1
+     */
+    private boolean checkIfReachable(int i, int j, int k, Map<Node, Boolean> record) {
+        Node node = new Node(i, j);
+        if (record.containsKey(node)) {
+            return record.get(node);
+        } else {
+            if (getNumSum(i) + getNumSum(i) > k) {
+                record.put(node, false);
+                return false;
+            } else {
+                if(i>=1){
+
+                }
+
+
+
+                boolean result = checkIfReachable(i - 1, j, k, record) || checkIfReachable(i, j - 1, k, record);
+                record.put(node, result);
+                return result;
+            }
+
+        }
+
+
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(new Solution().movingCount_bfs(11, 8, 16));
+        System.out.println(new Solution().movingCount_dp_递归实现(11, 8, 16));
+    }
 
     //根据提议 number>=0 && number<=100
-    public int getNumSum(int number) {
+    private int getNumSum(int number) {
         int ans = 0;
         while (number > 0) {
             int digit = number % 10;
