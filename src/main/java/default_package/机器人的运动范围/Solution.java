@@ -35,7 +35,7 @@ import java.util.Queue;
 
 class Solution {
     /*
-    广度优先搜索==========================================
+    广度优先搜索=========================================================================
      */
     public int movingCount_bfs(int m, int n, int k) {
         int result = 0;
@@ -85,15 +85,15 @@ class Solution {
 
 
     /*
-    深度优先搜索==========================================
+    深度优先搜索===========================================================================
      */
 
 
 
 
     /*
-    动态规划：
-    设dp(i,i)表示，i行j列处的坐标是否可达
+    动态规划：===============================================================================
+    设dp(i,j)表示，i行j列处的坐标是否可达
 
     则，dp(i,j)=
     if(i,j的数位和超过的k) {
@@ -103,27 +103,24 @@ class Solution {
         return dp(i-1,j) || dp(i,j-1)
 
     }
+
+    如果使用以上状态转移方程，就要求i>=1且j>=1，但是！！！！！通过record可以实现全范围的索引
      */
 
     /*
-    动态规划，递归实现
+    动态规划，递归实现=========================================================================
      */
     public int movingCount_dp_递归实现(int m, int n, int k) {
         Map<Node, Boolean> record = new HashMap<>(); //用于递归加速
         /*
         因为，private boolean checkIfReachable(int i, int j, int k)  要求 i>=1 && j>=1
-        所以，边界条件包括  0，0    0，1    1，0  三种情况
          */
-        record.put(new Node(0, 0), true);
-        record.put(new Node(0, 1), true);
-        record.put(new Node(1, 0), true);
 
         int result = 0;
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {
                 boolean temp = checkIfReachable(i, j, k, record);
                 if (temp) {
-                    System.out.println(i + " " + j + " " + temp);
                     ++result;
                 }
             }
@@ -134,7 +131,7 @@ class Solution {
 
 
     /*
-    dp(i,j)动态规划，状态转移方程实现
+    dp(i,j)动态规划，状态转移方程递归实现
     i>=1 && j>=1
      */
     private boolean checkIfReachable(int i, int j, int k, Map<Node, Boolean> record) {
@@ -142,19 +139,24 @@ class Solution {
         if (record.containsKey(node)) {
             return record.get(node);
         } else {
-            if (getNumSum(i) + getNumSum(i) > k) {
+            if (getNumSum(i) + getNumSum(j) > k) {
                 record.put(node, false);
                 return false;
             } else {
-                if(i>=1){
+                if (i >= 1 && j >= 1) {
+                    boolean result = checkIfReachable(i - 1, j, k, record) || checkIfReachable(i, j - 1, k, record);
+                    record.put(node, result);
+                    return result;
+                } else {
+                    //该分支，其实就是i==0||j=0
+                    //机器人必定可走到
+                    record.put(new Node(i, j), true);
+                    return true;
+
 
                 }
 
 
-
-                boolean result = checkIfReachable(i - 1, j, k, record) || checkIfReachable(i, j - 1, k, record);
-                record.put(node, result);
-                return result;
             }
 
         }
