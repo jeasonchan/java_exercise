@@ -50,7 +50,7 @@ import java.util.List;
  */
 class Solution {
     public List<String> generateParenthesis(int n) {
-        Node root = new Node(Node.LEFT);
+        Node root = new Node(Node.NodeType.LEFT);
         generateTree(n - 1, n, root);
 
         List<String> result = new ArrayList<>();
@@ -89,13 +89,13 @@ class Solution {
         }
         if (remainedLeft > 0) {
             //添加左儿子
-            currentNode.leftNode = new Node(Node.LEFT);
+            currentNode.leftNode = new Node(Node.NodeType.LEFT);
             generateTree(remainedLeft - 1, remainedRight, currentNode.leftNode);
 
         }
         if (remainedRight > remainedLeft) {
             //添加右儿子
-            currentNode.rightNode = new Node(Node.RIGHT);
+            currentNode.rightNode = new Node(Node.NodeType.RIGHT);
             generateTree(remainedLeft, remainedRight - 1, currentNode.rightNode);
         }
 
@@ -104,11 +104,20 @@ class Solution {
 
     //二叉树节点
     static class Node {
-        public static String LEFT = "(";
-        public static String RIGHT = ")";
+        public enum NodeType {
+            LEFT("("),
+            RIGHT(")");
 
-        Node(String value) {
-            this.value = value;
+            NodeType(String value) {
+                this.value = value;
+            }
+
+            public String value;
+        }
+
+
+        Node(NodeType nodeType) {
+            this.value = nodeType.value;
         }
 
         public String value;
