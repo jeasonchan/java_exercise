@@ -1,4 +1,4 @@
-package default_package.括号生成;
+package default_package.括号生成（DFS+路径记录）;
 
 import java.util.ArrayList;
 import java.util.List;
