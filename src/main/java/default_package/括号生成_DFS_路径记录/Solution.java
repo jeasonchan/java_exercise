@@ -1,7 +1,7 @@
 package default_package.括号生成_DFS_路径记录;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 
 /*
@@ -49,17 +49,46 @@ import java.util.List;
 
  */
 class Solution {
-    public List<String> generateParenthesis(int n) {
+    static enum RouteGenerateType {
+        BFS("BFS"), DFS("DFS");
+
+        RouteGenerateType(String value) {
+            this.value = value;
+        }
+
+        private String value;
+    }
+
+
+    public List<String> generateParenthesis(int n, RouteGenerateType routeGenerateType) {
         Node root = new Node(Node.NodeType.LEFT);
         generateTree(n - 1, n, root);
 
         List<String> result = new ArrayList<>();
-        generateRoute(root, new StringBuilder(), result);
+
+        switch (routeGenerateType) {
+            case BFS:
+                //使用BFS获取路径
+                result = generateRoute_bfs(root, n);
+                break;
+            case DFS:
+                //使用DFS获取路径
+                generateRoute_dfs(root, new StringBuilder(), result);
+                break;
+
+        }
 
         return result;
     }
 
-    private void generateRoute(Node currentNode, StringBuilder route, List<String> result) {
+    /**
+     * 通过深度优先搜素，得到末端节点，并输出记录下的遍历路径
+     *
+     * @param currentNode
+     * @param route
+     * @param result
+     */
+    private void generateRoute_dfs(Node currentNode, StringBuilder route, List<String> result) {
         StringBuilder newRoute = route.append(currentNode.value);
 
         if (null == currentNode.leftNode && null == currentNode.rightNode) {
@@ -70,16 +99,64 @@ class Solution {
         }
 
         if (null != currentNode.leftNode) {
-            generateRoute(currentNode.leftNode, newRoute, result);
+            generateRoute_dfs(currentNode.leftNode, newRoute, result);
             newRoute.delete(newRoute.length() - 1, newRoute.length());//回退到上一层时，同时回退对路径的修改
         }
 
         if (null != currentNode.rightNode) {
-            generateRoute(currentNode.rightNode, newRoute, result);
+            generateRoute_dfs(currentNode.rightNode, newRoute, result);
             newRoute.delete(newRoute.length() - 1, newRoute.length());//回退到上一层时，同时回退对路径的修改
         }
 
 
+    }
+
+    /*
+    通过广度优先遍历时，BFS本身的终止条件是Queue中没有节点需要遍历了，
+    但是，对于放入队列的节点，我们可以进行有条件的筛选，
+    对于本体，我们的目的是遍历得到末端节点，因此，可以不必限制条件，让其自然结束；
+    也可以，只加入距离<=2n-1的节点，因为括号字符串的长度是确定的2n，末端节点距离root节点的距离必定是2n-1
+     */
+    private List<String> generateRoute_bfs(Node root, int n) {
+        Map<Node, String> record = new HashMap<>();
+        //此处使用的Node没有重写equals和hashcode，会直接使用内存地址，正好可以区分开不同的左右括号节点
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        record.put(root, root.value);
+
+
+        while (!queue.isEmpty()) {
+            Node currentNode = queue.poll();
+            String currentRoute = record.get(currentNode);
+
+
+            //一般情况下，都要先判断子节点有没有在record中出现过，但是，因为是二叉树，不是图，不会重复访问，略去record判断
+            if (null != currentNode.leftNode) {
+                queue.add(currentNode.leftNode);
+
+                //务必注意！！！！！！！！！！！！！！！！！放进record的必须和前面的currentNode脱离关系，要不然会持续影响后面的
+                //new StringBuilder()  并不会进行深拷贝，会直接影响前后对象
+                record.put(currentNode.leftNode, currentRoute + currentNode.leftNode.value);
+            }
+
+            if (null != currentNode.rightNode) {
+                queue.add(currentNode.rightNode);
+                record.put(currentNode.rightNode, currentRoute + currentNode.rightNode.value);
+            }
+
+
+        }
+
+
+        List<String> result = new ArrayList<>();
+        record.values().stream().filter((each) -> each.length() == 2 * n).forEach((each) -> {
+            System.out.println(each);
+            result.add(each);
+        });
+
+
+        return result;
     }
 
 

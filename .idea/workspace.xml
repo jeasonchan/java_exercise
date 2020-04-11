@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/IO和NIO文件读取对比/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/IO和NIO的socket实现对比/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/括号生成/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/括号生成_DFS_路径记录/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/括号生成_DFS_路径记录/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/括号生成_DFS_路径记录/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/枚举单实例测试/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/枚举单实例测试/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.包装类测试.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.括号生成_DFS_路径记录.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.包装类测试.*" />
+          <option name="PATTERN" value="default_package.括号生成_DFS_路径记录.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.枚举单实例测试.Main" />
+      <module name="java_exercise_based_on_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_package.枚举单实例测试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MySqlExercise" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MySqlExercise" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -308,6 +320,7 @@
       <workItem from="1585234820265" duration="7183000" />
       <workItem from="1585491675760" duration="45271000" />
       <workItem from="1586274179960" duration="1817000" />
+      <workItem from="1586606809089" duration="5252000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -515,30 +528,46 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585830114372" />
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1585584437021">
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1586612196326">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1585584437021" />
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1586612196326" />
     <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1586363497399">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1586363497399" />
-    <state width="916" height="201" key="GridCell.Tab.0.bottom" timestamp="1586447114625">
+    <state width="916" height="284" key="GridCell.Tab.0.bottom" timestamp="1586613164656">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586447114625" />
-    <state width="916" height="201" key="GridCell.Tab.0.center" timestamp="1586447114625">
+    <state width="916" height="284" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586613164656" />
+    <state width="916" height="284" key="GridCell.Tab.0.center" timestamp="1586613164656">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586447114625" />
-    <state width="916" height="201" key="GridCell.Tab.0.left" timestamp="1586447114625">
+    <state width="916" height="284" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586613164656" />
+    <state width="916" height="284" key="GridCell.Tab.0.left" timestamp="1586613164656">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586447114625" />
-    <state width="916" height="201" key="GridCell.Tab.0.right" timestamp="1586447114625">
+    <state width="916" height="284" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586613164656" />
+    <state width="916" height="284" key="GridCell.Tab.0.right" timestamp="1586613164656">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="201" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586447114625" />
+    <state width="916" height="284" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586613164656" />
+    <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586612905313">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="916" height="418" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905313" />
+    <state width="916" height="418" key="GridCell.Tab.1.center" timestamp="1586612905313">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="916" height="418" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905313" />
+    <state width="916" height="418" key="GridCell.Tab.1.left" timestamp="1586612905298">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="916" height="418" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905298" />
+    <state width="916" height="418" key="GridCell.Tab.1.right" timestamp="1586612905313">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="916" height="418" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905313" />
     <state width="236" height="477" key="HiddenNamespacesPopup" timestamp="1585830143423">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -551,6 +580,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="463" y="200" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1585586712156" />
+    <state width="488" height="525" key="XDebugger.FullValuePopup" timestamp="1586612788132">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="488" height="525" key="XDebugger.FullValuePopup/0.30.1920.1050@0.30.1920.1050" timestamp="1586612788132" />
     <state x="1239" y="333" key="chooseDestDirectoryDialog" timestamp="1585063889203">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -575,6 +608,17 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586362224081" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/default_package/括号生成_DFS_路径记录/Solution.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
