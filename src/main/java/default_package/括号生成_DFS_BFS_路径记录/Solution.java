@@ -1,7 +1,6 @@
-package default_package.括号生成_DFS_路径记录;
+package default_package.括号生成_DFS_BFS_路径记录;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 
 /*
