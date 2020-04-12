@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/Buffer用法/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/BIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/client/NIOClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/IO和NIO文件读取对比/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/IO和NIO文件读取对比/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/翻转字符串里的单词/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/翻转字符串里的单词/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/NIOServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +104,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="default_package" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="default_package.NIO练习.Common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise" />
+      <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test" />
+      <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="default_package" />
@@ -114,22 +124,14 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="default_package.机器人的运动范围" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise" />
-      <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test" />
-      <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.翻转字符串里的单词.Main" />
+  <component name="RunManager" selected="Application.NIOClient">
+    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.NIO练习.SocketChannel练习.server.BIOServer" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.翻转字符串里的单词.*" />
+          <option name="PATTERN" value="default_package.NIO练习.SocketChannel练习.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.枚举单实例测试.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.翻转字符串里的单词.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.枚举单实例测试.*" />
+          <option name="PATTERN" value="default_package.翻转字符串里的单词.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.机器人的运动范围.Solution" />
+    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.NIO练习.SocketChannel练习.client.NIOClient" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.机器人的运动范围.*" />
+          <option name="PATTERN" value="default_package.NIO练习.SocketChannel练习.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.BIOServer" />
+      <item itemvalue="Application.NIOClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIOClient" />
+        <item itemvalue="Application.BIOServer" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +323,7 @@
       <workItem from="1585234820265" duration="7183000" />
       <workItem from="1585491675760" duration="45271000" />
       <workItem from="1586274179960" duration="1817000" />
-      <workItem from="1586606809089" duration="13829000" />
+      <workItem from="1586606809089" duration="17685000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -545,30 +547,38 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585830114372" />
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1586612196326">
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1586705387476">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1586612196326" />
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1586705387476" />
+    <state x="1260" y="355" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586704774815">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1260" y="355" key="#com.intellij.ide.util.TreeClassChooserDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704774815" />
+    <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586704776468">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
     <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1586617664053">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1586617664053" />
-    <state width="916" height="164" key="GridCell.Tab.0.bottom" timestamp="1586697520271">
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1586706805637">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586697520271" />
-    <state width="916" height="164" key="GridCell.Tab.0.center" timestamp="1586697520271">
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
+    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1586706805637">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586697520271" />
-    <state width="916" height="164" key="GridCell.Tab.0.left" timestamp="1586697520271">
+    <state width="1877" height="435" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
+    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1586706805637">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586697520271" />
-    <state width="916" height="164" key="GridCell.Tab.0.right" timestamp="1586697520271">
+    <state width="1877" height="435" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1586706805637">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586697520271" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
     <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586612905313">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -621,10 +631,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1584865693604" />
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1586617339881">
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1586706209583">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586617339881" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586706209583" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
