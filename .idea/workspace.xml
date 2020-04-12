@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/client/NIOClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/BIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/NIO练习/SocketChannel练习/server/NIOServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +319,7 @@
       <workItem from="1585234820265" duration="7183000" />
       <workItem from="1585491675760" duration="45271000" />
       <workItem from="1586274179960" duration="1817000" />
-      <workItem from="1586606809089" duration="17685000" />
+      <workItem from="1586606809089" duration="18092000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -563,22 +559,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1586617664053" />
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1586706805637">
+    <state width="916" height="438" key="GridCell.Tab.0.bottom" timestamp="1586707232136">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
-    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1586706805637">
+    <state width="916" height="438" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586707232136" />
+    <state width="916" height="438" key="GridCell.Tab.0.center" timestamp="1586707232136">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
-    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1586706805637">
+    <state width="916" height="438" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586707232136" />
+    <state width="916" height="438" key="GridCell.Tab.0.left" timestamp="1586707232136">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
-    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1586706805637">
+    <state width="916" height="438" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586707232136" />
+    <state width="916" height="438" key="GridCell.Tab.0.right" timestamp="1586707232136">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586706805637" />
+    <state width="916" height="438" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586707232136" />
     <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586612905313">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
