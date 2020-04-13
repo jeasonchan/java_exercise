@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/和为S的数字集合/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/和为S的数字集合/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +320,7 @@
       <workItem from="1585234820265" duration="7183000" />
       <workItem from="1585491675760" duration="45271000" />
       <workItem from="1586274179960" duration="1817000" />
-      <workItem from="1586606809089" duration="26438000" />
+      <workItem from="1586606809089" duration="26712000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
