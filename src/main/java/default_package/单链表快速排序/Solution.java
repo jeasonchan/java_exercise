@@ -10,9 +10,9 @@ import javax.sound.midi.InvalidMidiDataException;
  */
 public class Solution {
     public Node quickSort(Node node) {
+        quickSortImpl(node, null);
 
-
-        return null;
+        return node;
     }
 
 
@@ -32,7 +32,6 @@ public class Solution {
     //将链表分为两部分，前半部分比基准小，后半部分比基准大
     //并返回分界点的引用
     private Node split(Node startNode, Node endNode) {
-        Node pivotNode = startNode;
         int pivotValue = startNode.value;
 
         Node mid = startNode;
@@ -47,7 +46,6 @@ public class Solution {
 
             move = move.next;
         }
-
 
 
         return mid;
