@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/单链表快速排序/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/和为S的数字集合/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/和为S的数字集合/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <recent name="default_package.机器人的运动范围" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_package.NIO练习.SocketChannel练习.server.BIOServer" />
       <module name="java_exercise_based_on_idea" />
@@ -149,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.NIO练习.Buffer用法.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.按字典顺序输字符串排列组合.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.NIO练习.Buffer用法.*" />
+          <option name="PATTERN" value="default_package.按字典顺序输字符串排列组合.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.NIO练习.IO和NIO文件读取对比.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.NIO练习.Buffer用法.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.NIO练习.IO和NIO文件读取对比.*" />
+          <option name="PATTERN" value="default_package.NIO练习.Buffer用法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.BIOServer" />
       <item itemvalue="Application.NIOClient" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.NIOClient" />
         <item itemvalue="Application.BIOServer" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +320,8 @@
       <workItem from="1585234820265" duration="7183000" />
       <workItem from="1585491675760" duration="45271000" />
       <workItem from="1586274179960" duration="1817000" />
-      <workItem from="1586606809089" duration="26712000" />
+      <workItem from="1586606809089" duration="26912000" />
+      <workItem from="1586875071758" duration="8771000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -455,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586617665131</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="leetcode：&#10;add Solution">
+      <created>1586878997547</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586878997548</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -533,7 +541,8 @@
     <MESSAGE value="机器人行走范围，BFS和DP递归 实现" />
     <MESSAGE value="机器人行走：&#10;1、增加BFS遍历末端节点并记录路径&#10;2、使用枚举类，实现入参参数限定，可自由选择遍历的实现类型" />
     <MESSAGE value="leetcode：&#10;反转字符串，双指针+栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode：&#10;反转字符串，双指针+栈" />
+    <MESSAGE value="leetcode：&#10;add Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode：&#10;add Solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
@@ -556,42 +565,42 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1586617664053">
+    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1586878996497">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1586617664053" />
-    <state width="1877" height="233" key="GridCell.Tab.0.bottom" timestamp="1586788860776">
+    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1586878996497" />
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom" timestamp="1586878953085">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="233" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586788860776" />
-    <state width="1877" height="233" key="GridCell.Tab.0.center" timestamp="1586788860776">
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586878953085" />
+    <state width="1877" height="169" key="GridCell.Tab.0.center" timestamp="1586878953085">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="233" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586788860776" />
-    <state width="1877" height="233" key="GridCell.Tab.0.left" timestamp="1586788860776">
+    <state width="1877" height="169" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586878953085" />
+    <state width="1877" height="169" key="GridCell.Tab.0.left" timestamp="1586878953084">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="233" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586788860776" />
-    <state width="1877" height="233" key="GridCell.Tab.0.right" timestamp="1586788860776">
+    <state width="1877" height="169" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586878953084" />
+    <state width="1877" height="169" key="GridCell.Tab.0.right" timestamp="1586878953085">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="233" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586788860776" />
-    <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586612905313">
+    <state width="1877" height="169" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586878953085" />
+    <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="418" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905313" />
-    <state width="916" height="418" key="GridCell.Tab.1.center" timestamp="1586612905313">
+    <state width="916" height="418" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1586790849988" />
+    <state width="916" height="418" key="GridCell.Tab.1.center" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="418" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905313" />
-    <state width="916" height="418" key="GridCell.Tab.1.left" timestamp="1586612905298">
+    <state width="916" height="418" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1586790849988" />
+    <state width="916" height="418" key="GridCell.Tab.1.left" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="418" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905298" />
-    <state width="916" height="418" key="GridCell.Tab.1.right" timestamp="1586612905313">
+    <state width="916" height="418" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1586790849988" />
+    <state width="916" height="418" key="GridCell.Tab.1.right" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="916" height="418" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586612905313" />
+    <state width="916" height="418" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1586790849988" />
     <state width="236" height="477" key="HiddenNamespacesPopup" timestamp="1585830143423">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -600,6 +609,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="970" y="213" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1584457439271" />
+    <state x="567" y="265" key="RollbackChangesDialog" timestamp="1586878960119">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="567" y="265" key="RollbackChangesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586878960119" />
     <state x="463" y="200" key="SettingsEditor" timestamp="1585586712156">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -628,10 +641,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1584865693604" />
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1586786288264">
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1587046023187">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586786288264" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1587046023187" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
