@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/两数之和/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/两数之和/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/两数相加/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +310,7 @@
       <workItem from="1586606809089" duration="26912000" />
       <workItem from="1586875071758" duration="9672000" />
       <workItem from="1587224086975" duration="1648000" />
-      <workItem from="1587281637206" duration="6103000" />
+      <workItem from="1587281637206" duration="9241000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -467,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587053471983</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="leetcode：两数之和">
+      <created>1587308285312</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1587308285312</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -546,7 +552,8 @@
     <MESSAGE value="机器人行走：&#10;1、增加BFS遍历末端节点并记录路径&#10;2、使用枚举类，实现入参参数限定，可自由选择遍历的实现类型" />
     <MESSAGE value="leetcode：&#10;反转字符串，双指针+栈" />
     <MESSAGE value="leetcode：&#10;add Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode：&#10;add Solution" />
+    <MESSAGE value="leetcode：两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode：两数之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
@@ -569,9 +576,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1587053471014">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="413" y="120" key="CommitChangelistDialog2" timestamp="1587308284309">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587308284309" />
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1587053471014" />
     <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1587306324130">
       <screen x="0" y="30" width="1920" height="1050" />
