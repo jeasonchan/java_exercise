@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/GreetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/ReturnGreeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/GreetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/GreetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/ReturnGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/函数式接口/ReturnGreeting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +310,8 @@
       <workItem from="1586274179960" duration="1817000" />
       <workItem from="1586606809089" duration="26912000" />
       <workItem from="1586875071758" duration="9672000" />
-      <workItem from="1587224086975" duration="1189000" />
+      <workItem from="1587224086975" duration="1648000" />
+      <workItem from="1587281637206" duration="1393000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
