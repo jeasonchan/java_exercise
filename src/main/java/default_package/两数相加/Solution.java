@@ -30,11 +30,11 @@ class Solution {
     }
 
 
-    private BigInteger getInt(ListNode listNode) {
+    private int getInt(ListNode listNode) {
         int exp = 0;
-        BigInteger result = BigInteger.valueOf(0);
+        int result = 0;
         while (null != listNode) {
-            result += BigInteger.valueOf(Math.exp * listNode.val);
+            result += Math.pow(10, exp) * listNode.val;
 
             ++exp;
             listNode = listNode.next;
@@ -49,9 +49,9 @@ class Solution {
         ListNode previousNode = null;
         ListNode startNode = null;
 
-        if(0==number){
-            startNode=new ListNode(0);
-            startNode.next=null;
+        if (0 == number) {
+            startNode = new ListNode(0);
+            startNode.next = null;
         }
 
 
@@ -96,6 +96,45 @@ class Solution {
         node3.next = null;
 
         System.out.println(solution.getInt(startNode));
+
+    }
+
+
+    //=====================================================================
+    public static ListNode dealOneByOne(ListNode l1, ListNode l2) {
+        ListNode startNode = null;
+        ListNode previousNode = null;
+        int carry = 0;
+
+        while (null != l1 || null != l2) {
+
+            if (null != l1 && null != l2) {
+                int temp = l1.val + l2.val + carry;
+
+                if (temp >= 10) {
+                    temp = temp - 10;
+                    carry = 1;
+                }
+
+                ListNode currentNode = new ListNode(temp);
+
+                if (null == startNode) {
+
+
+                }
+
+
+            } else if (null != l1 && null == l2) {
+
+
+            } else if (null == l1 && null != l2) {
+
+
+            }
+
+
+        }
+
 
     }
 }
