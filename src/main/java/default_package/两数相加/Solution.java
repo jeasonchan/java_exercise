@@ -19,8 +19,7 @@ package default_package.两数相加;
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-import java.sql.ResultSet;
-import java.util.List;
+import java.math.BigInteger;
 
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -31,11 +30,11 @@ class Solution {
     }
 
 
-    private int getInt(ListNode listNode) {
+    private BigInteger getInt(ListNode listNode) {
         int exp = 0;
-        int result = 0;
+        BigInteger result = BigInteger.valueOf(0);
         while (null != listNode) {
-            result += Math.pow(10, exp) * listNode.val;
+            result += BigInteger.valueOf(Math.exp * listNode.val);
 
             ++exp;
             listNode = listNode.next;
@@ -46,10 +45,58 @@ class Solution {
     }
 
 
-    private ListNode getListNode(int number) {
+    private ListNode getListNode(long number) {
+        ListNode previousNode = null;
+        ListNode startNode = null;
+
+        if(0==number){
+            startNode=new ListNode(0);
+            startNode.next=null;
+        }
 
 
-        return null;
+        while (number > 0) {
+            long temp = number / 10;
+            int value = (int) (number - temp * 10);
+            number = temp;
+
+//            System.out.println(value);
+
+            if (null == startNode) {
+                startNode = new ListNode(value);
+                previousNode = startNode;
+            } else {
+                ListNode currentNode = new ListNode(value);
+                currentNode.next = null;
+                previousNode.next = currentNode;
+                previousNode = currentNode;
+            }
+
+        }
+
+        return startNode;
+    }
+
+    //=======================================================
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println(solution.getListNode(123456));
+
+        ListNode startNode = new ListNode(0);
+
+        ListNode node1 = new ListNode(1);
+        startNode.next = node1;
+
+        ListNode node2 = new ListNode(2);
+        node1.next = node2;
+
+        ListNode node3 = new ListNode(3);
+        node2.next = node3;
+
+        node3.next = null;
+
+        System.out.println(solution.getInt(startNode));
+
     }
 }
 
@@ -60,5 +107,13 @@ class ListNode {
 
     ListNode(int x) {
         val = x;
+    }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
     }
 }
