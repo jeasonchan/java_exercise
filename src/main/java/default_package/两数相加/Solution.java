@@ -29,7 +29,7 @@ class Solution {
     }
 
 
-    private int getInt(ListNode listNode) {
+    public int getInt(ListNode listNode) {
         int exp = 0;
         int result = 0;
         while (null != listNode) {
@@ -44,7 +44,7 @@ class Solution {
     }
 
 
-    private ListNode getListNode(long number) {
+    public ListNode getListNode(long number) {
         ListNode previousNode = null;
         ListNode startNode = null;
 
