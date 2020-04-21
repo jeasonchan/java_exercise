@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/最长回文子串/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/最长回文子串/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/最长回文子串/Solution2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/两数相加/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/两数相加/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +311,7 @@
       <workItem from="1586606809089" duration="26912000" />
       <workItem from="1586875071758" duration="9672000" />
       <workItem from="1587224086975" duration="1648000" />
-      <workItem from="1587281637206" duration="17032000" />
+      <workItem from="1587281637206" duration="18067000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -497,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587470401423</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="新增leetcode解题：最长回文字串">
+      <created>1587474519800</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1587474519800</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -579,7 +584,8 @@
     <MESSAGE value="leetcode：两数之和" />
     <MESSAGE value="leetcode：两数相加" />
     <MESSAGE value="新增leetcode解题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增leetcode解题" />
+    <MESSAGE value="新增leetcode解题：最长回文字串" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增leetcode解题：最长回文字串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
@@ -602,10 +608,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="120" key="CommitChangelistDialog2" timestamp="1587470400392">
+    <state x="413" y="120" key="CommitChangelistDialog2" timestamp="1587474518898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587470400392" />
+    <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587474518898" />
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1587053471014" />
     <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1587474497799">
       <screen x="0" y="0" width="1920" height="1050" />
