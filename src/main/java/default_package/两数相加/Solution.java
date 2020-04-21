@@ -19,14 +19,13 @@ package default_package.两数相加;
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-import java.math.BigInteger;
-
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         System.out.println("l1:" + getInt(l1));
         System.out.println("l2:" + getInt(l2));
 
-        return getListNode(getInt(l1) + getInt(l2));
+//        return getListNode(getInt(l1) + getInt(l2));
+        return dealNodeOneByOne(l1, l2);
     }
 
 
@@ -97,38 +96,90 @@ class Solution {
 
         System.out.println(solution.getInt(startNode));
 
+
+        System.out.println(solution.addTwoNumbers(startNode,startNode));
+
     }
 
 
     //=====================================================================
-    public static ListNode dealOneByOne(ListNode l1, ListNode l2) {
+    public static ListNode dealNodeOneByOne(ListNode l1, ListNode l2) {
         ListNode startNode = null;
         ListNode previousNode = null;
         int carry = 0;
 
         while (null != l1 || null != l2) {
 
+
             if (null != l1 && null != l2) {
+                //两个没没到头的情况
+
                 int temp = l1.val + l2.val + carry;
 
                 if (temp >= 10) {
-                    temp = temp - 10;
-                    carry = 1;
+                    carry = temp / 10;
+                    temp = temp - 10 * carry;
                 }
 
                 ListNode currentNode = new ListNode(temp);
+                currentNode.next = null;
 
                 if (null == startNode) {
-
-
+                    startNode = currentNode;
+                } else {
+                    previousNode.next = currentNode;
                 }
+
+                previousNode = currentNode;
+
+                l1 = l1.next;
+                l2 = l2.next;
 
 
             } else if (null != l1 && null == l2) {
+                //l2到头的情况
+                int temp = l1.val + carry;
 
+                if (temp >= 10) {
+                    carry = temp / 10;
+                    temp = temp - 10 * carry;
+                }
+
+                ListNode currentNode = new ListNode(temp);
+                currentNode.next = null;
+
+                if (null == startNode) {
+                    startNode = currentNode;
+                } else {
+                    previousNode.next = currentNode;
+                }
+
+                previousNode = currentNode;
+
+                l1 = l1.next;
 
             } else if (null == l1 && null != l2) {
+                //l1到头的情况
 
+                int temp = l2.val + carry;
+
+                if (temp >= 10) {
+                    carry = temp / 10;
+                    temp = temp - 10 * carry;
+                }
+
+                ListNode currentNode = new ListNode(temp);
+                currentNode.next = null;
+
+                if (null == startNode) {
+                    startNode = currentNode;
+                } else {
+                    previousNode.next = currentNode;
+                }
+
+                previousNode = currentNode;
+
+                l2 = l2.next;
 
             }
 
@@ -136,6 +187,14 @@ class Solution {
         }
 
 
+        if (carry > 0) {
+            ListNode currentNode = new ListNode(carry);
+            currentNode.next = null;
+            previousNode.next = currentNode;
+        }
+
+
+        return startNode;
     }
 }
 
