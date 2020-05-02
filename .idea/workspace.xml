@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/SyncConnectedWatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/SyncConnectedWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/SyncConnectedWatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +316,7 @@
       <workItem from="1587561456795" duration="49000" />
       <workItem from="1587564764789" duration="633000" />
       <workItem from="1587736840664" duration="636000" />
-      <workItem from="1588426429379" duration="2611000" />
+      <workItem from="1588426429379" duration="3420000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -534,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587476069094</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="增加 对 zookeeper 原生 api 的实践">
+      <created>1588430839691</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1588430839691</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -618,7 +605,8 @@
     <MESSAGE value="新增leetcode解题" />
     <MESSAGE value="新增leetcode解题：最长回文字串" />
     <MESSAGE value="新增leetcode解题：最长回文字串，第二种动态规划，状态定义不同" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增leetcode解题：最长回文字串，第二种动态规划，状态定义不同" />
+    <MESSAGE value="增加 对 zookeeper 原生 api 的实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 对 zookeeper 原生 api 的实践" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
@@ -642,34 +630,35 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="120" key="CommitChangelistDialog2" timestamp="1587476068196">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1588430838621">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587476068196" />
+    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430838621" />
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1587053471014" />
-    <state width="1113" height="284" key="GridCell.Tab.0.bottom" timestamp="1588430811763">
+    <state width="1113" height="374" key="GridCell.Tab.0.bottom" timestamp="1588431566924">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1113" height="284" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1113" height="374" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588431566924" />
     <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157402" />
-    <state width="1113" height="284" key="GridCell.Tab.0.center" timestamp="1588430811763">
+    <state width="1113" height="374" key="GridCell.Tab.0.center" timestamp="1588431566921">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1113" height="284" key="GridCell.Tab.0.center/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1113" height="374" key="GridCell.Tab.0.center/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588431566921" />
     <state width="1877" height="171" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157402" />
-    <state width="1113" height="284" key="GridCell.Tab.0.left" timestamp="1588430811763">
+    <state width="1113" height="374" key="GridCell.Tab.0.left" timestamp="1588431566921">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1113" height="284" key="GridCell.Tab.0.left/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1113" height="374" key="GridCell.Tab.0.left/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588431566921" />
     <state width="1877" height="171" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157401" />
-    <state width="1113" height="284" key="GridCell.Tab.0.right" timestamp="1588430811763">
+    <state width="1113" height="374" key="GridCell.Tab.0.right" timestamp="1588431566922">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1113" height="284" key="GridCell.Tab.0.right/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1113" height="374" key="GridCell.Tab.0.right/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588431566922" />
     <state width="1877" height="171" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157402" />
     <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
@@ -728,10 +717,11 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1584865693604" />
-    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1587472223486">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1588431513359">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587472223486" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588431513359" />
     <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1587046023187" />
   </component>
   <component name="XDebuggerManager">
