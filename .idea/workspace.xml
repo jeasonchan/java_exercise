@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/最长回文子串/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/SyncConnectedWatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +104,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -123,13 +144,13 @@
       <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.按字典顺序输字符串排列组合.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.函数式接口.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.按字典顺序输字符串排列组合.*" />
+          <option name="PATTERN" value="default_package.函数式接口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.函数式接口.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.zookeeper练习.Main" />
       <module name="java_exercise_based_on_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="default_package.函数式接口.*" />
+          <option name="PATTERN" value="default_package.zookeeper练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,19 +211,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +332,11 @@
       <workItem from="1586606809089" duration="26912000" />
       <workItem from="1586875071758" duration="9672000" />
       <workItem from="1587224086975" duration="1648000" />
-      <workItem from="1587281637206" duration="18067000" />
+      <workItem from="1587281637206" duration="20583000" />
+      <workItem from="1587561456795" duration="49000" />
+      <workItem from="1587564764789" duration="633000" />
+      <workItem from="1587736840664" duration="636000" />
+      <workItem from="1588426429379" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -502,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587474519800</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="新增leetcode解题：最长回文字串，第二种动态规划，状态定义不同">
+      <created>1587476069094</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587476069094</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -585,20 +617,22 @@
     <MESSAGE value="leetcode：两数相加" />
     <MESSAGE value="新增leetcode解题" />
     <MESSAGE value="新增leetcode解题：最长回文字串" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增leetcode解题：最长回文字串" />
+    <MESSAGE value="新增leetcode解题：最长回文字串，第二种动态规划，状态定义不同" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增leetcode解题：最长回文字串，第二种动态规划，状态定义不同" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="956" y="223" key="#SQL_Dialects/0.30.1920.1050@0.30.1920.1050" timestamp="1585827486692" />
-    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585830114372">
+    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587564794111">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585830114372" />
-    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1586705387476">
+    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587564794111" />
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1588430340269">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
+    <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430340269" />
     <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1586705387476" />
     <state x="1260" y="355" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586704774815">
       <screen x="0" y="30" width="1920" height="1050" />
@@ -608,31 +642,35 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="120" key="CommitChangelistDialog2" timestamp="1587474518898">
+    <state x="413" y="120" key="CommitChangelistDialog2" timestamp="1587476068196">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587474518898" />
+    <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587476068196" />
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1587053471014" />
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1587474497799">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1113" height="284" key="GridCell.Tab.0.bottom" timestamp="1588430811763">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1587306324130" />
-    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1587474497799">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1113" height="284" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157402" />
+    <state width="1113" height="284" key="GridCell.Tab.0.center" timestamp="1588430811763">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1587306324130" />
-    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1587474497799">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1113" height="284" key="GridCell.Tab.0.center/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157402" />
+    <state width="1113" height="284" key="GridCell.Tab.0.left" timestamp="1588430811763">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1587306324130" />
-    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1587474497799">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1113" height="284" key="GridCell.Tab.0.left/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157401" />
+    <state width="1113" height="284" key="GridCell.Tab.0.right" timestamp="1588430811763">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1587306324130" />
+    <state width="1113" height="284" key="GridCell.Tab.0.right/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588430811763" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1587483157402" />
     <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
