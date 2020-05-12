@@ -97,9 +97,6 @@ public class Main {
                          */
 
 
-
-
-
                         //使用CountDownLatch和匿名函数达到异步转同步
                         createdLatch.countDown();
                     }
@@ -110,7 +107,6 @@ public class Main {
 
         //以同步的方式查询创建的临时节点的  父节点  下面的全部子节点  名称
         System.out.println(zooKeeper.getChildren("/", false));
-
 
     }
 }

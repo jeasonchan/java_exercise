@@ -99,7 +99,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -316,7 +316,9 @@
       <workItem from="1587561456795" duration="49000" />
       <workItem from="1587564764789" duration="633000" />
       <workItem from="1587736840664" duration="636000" />
-      <workItem from="1588426429379" duration="19707000" />
+      <workItem from="1588426429379" duration="29909000" />
+      <workItem from="1589114917239" duration="4757000" />
+      <workItem from="1589205242752" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -535,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588612484592</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="zookeeper增删改查实践">
+      <created>1588680745598</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1588680745598</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -621,7 +630,8 @@
     <MESSAGE value="新增leetcode解题：最长回文字串，第二种动态规划，状态定义不同" />
     <MESSAGE value="增加 对 zookeeper 原生 api 的实践" />
     <MESSAGE value="zookeeper  创建节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="zookeeper  创建节点" />
+    <MESSAGE value="zookeeper增删改查实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="zookeeper增删改查实践" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
@@ -645,36 +655,36 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1588612483609">
+    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1588680744665">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587476068196" />
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612483609" />
-    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1587053471014" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1588680250715">
+    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1588680744665" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1589114671029">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
     <state width="1027" height="404" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1588680250715" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1588680250715">
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1589114671029">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
     <state width="1027" height="404" key="GridCell.Tab.0.center/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1588680250715" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1588680250715">
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1589114671029">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
     <state width="1027" height="404" key="GridCell.Tab.0.left/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1588680250715" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1588680250715">
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1589114671029">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
     <state width="1027" height="404" key="GridCell.Tab.0.right/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1588680250715" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
     <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -704,10 +714,10 @@
     </state>
     <state x="567" y="235" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587395276508" />
     <state x="567" y="265" key="RollbackChangesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586878960119" />
-    <state x="463" y="200" key="SettingsEditor" timestamp="1585586712156">
+    <state x="180" y="174" key="SettingsEditor" timestamp="1589119762759">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="463" y="200" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1585586712156" />
+    <state x="180" y="174" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1589119762759" />
     <state width="488" height="525" key="XDebugger.FullValuePopup" timestamp="1586612788132">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -716,6 +726,14 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1239" y="333" key="chooseDestDirectoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1585063889203" />
+    <state x="715" y="399" key="cloudConfig.PluginsDialog" timestamp="1589114942510">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="715" y="399" key="cloudConfig.PluginsDialog/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1589114942510" />
+    <state x="715" y="399" key="cloudConfig.SelfSettingsDialog" timestamp="1589048197567">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="715" y="399" key="cloudConfig.SelfSettingsDialog/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1589048197567" />
     <state x="1254" y="469" width="343" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586096236682">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -732,11 +750,15 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="92" y="122" width="1736" height="866" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1584865693604" />
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1588431513359">
+    <state x="690" y="308" key="extract.method.dialog" timestamp="1589120331182">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="690" y="308" key="extract.method.dialog/0.30.1920.1050@0.30.1920.1050" timestamp="1589120331182" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1588949933762">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587472223486" />
-    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588431513359" />
+    <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588949933762" />
     <state x="1103" y="263" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1587046023187" />
   </component>
   <component name="XDebuggerManager">
