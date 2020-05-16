@@ -8,17 +8,60 @@
     <artifactId>java_exercise_based_on_idea</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--定义当前项目的打包类型。
+    pom相当于一个只生成一个pom，
+    jar是打包为jar包，不显式声明时，默认打包为jar-->
+    <packaging>jar</packaging>
+
+    <properties>
+        <!--自定义一个-->
+        <jdk_source_version>11</jdk_source_version>
+        <jdk_target_version>11</jdk_target_version>
+
+    </properties>
+
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
+
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>${jdk_source_version}</source>
+                    <target>${jdk_target_version}</target>
                 </configuration>
+
+                <executions>
+                    <execution>
+
+                    </execution>
+                </executions>
+
             </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
+                <configuration>
+                    <!-- put your configurations here -->
+
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+
         </plugins>
     </build>
 

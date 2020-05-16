@@ -67,3 +67,4 @@ target/test-classes/file1.txt
 target/test-classes/file2.txt
 *.class
 .idea/workspace.xml
+/target/
