@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java_exercise_based_on_idea:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>java_exercise_based_on_idea</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="java_exercise_based_on_idea-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="java_exercise_based_on_idea:war exploded" />
+    </root>
+  </artifact>
+</component>

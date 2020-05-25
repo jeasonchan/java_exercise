@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="">
+    <list default="true" id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="zookeeper增删改查实践">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/mybatis练习/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_package/套接字原理探索/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_package/zookeeper练习/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <list id="fdead10d-b96e-4c5e-a35d-d5888e86eefb" name="NOT COMMIT" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/java_exercise_based_on_idea_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/java_exercise_based_on_idea_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exercise_based_on_idea.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +64,6 @@
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,12 +74,24 @@
       </set>
     </option>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/java_exercise_based_on_idea.iml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="15" changelist="fdead10d-b96e-4c5e-a35d-d5888e86eefb" />
+        <range start1="14" end1="14" start2="27" end2="28" changelist="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" />
+        <range start1="46" end1="46" start2="60" end2="62" changelist="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" />
+      </ranges>
+    </file>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1Oh3sZtKDra4klXUUPPgXb5LgZd" />
   <component name="ProjectLevelVcsManager">
@@ -124,7 +144,20 @@
       <recent name="C:\CRroot\documents\codeproject\java_exercise_based_on_idea\java_exercise\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_package.实验指定Main.Main" />
+      <module name="java_exercise_based_on_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_package.实验指定Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="default_package.函数式接口.Main" />
       <module name="java_exercise_based_on_idea" />
@@ -177,33 +210,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="default_package.单链表快速排序.Test" />
-      <module name="java_exercise_based_on_idea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="default_package.单链表快速排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +249,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c53d2a90-c374-4e9a-91f6-9f8ed52e9916" name="Default Changelist" comment="" />
+      <changelist id="fdead10d-b96e-4c5e-a35d-d5888e86eefb" name="NOT COMMIT" comment="" />
       <created>1550043724966</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -318,7 +339,9 @@
       <workItem from="1587736840664" duration="636000" />
       <workItem from="1588426429379" duration="29909000" />
       <workItem from="1589114917239" duration="4757000" />
-      <workItem from="1589205242752" duration="2390000" />
+      <workItem from="1589205242752" duration="4972000" />
+      <workItem from="1589629966816" duration="21627000" />
+      <workItem from="1590244517691" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="线程练习">
       <created>1558627675521</created>
@@ -544,7 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588680745598</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Main实验">
+      <created>1589642272160</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1589642272160</updated>
+    </task>
+    <task id="LOCAL-00034" summary="增加Netty依赖">
+      <created>1589896822607</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1589896822607</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -631,17 +668,19 @@
     <MESSAGE value="增加 对 zookeeper 原生 api 的实践" />
     <MESSAGE value="zookeeper  创建节点" />
     <MESSAGE value="zookeeper增删改查实践" />
-    <option name="LAST_COMMIT_MESSAGE" value="zookeeper增删改查实践" />
+    <MESSAGE value="Main实验" />
+    <MESSAGE value="增加Netty依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Netty依赖" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="223" key="#SQL_Dialects" timestamp="1585827486692">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="956" y="223" key="#SQL_Dialects/0.30.1920.1050@0.30.1920.1050" timestamp="1585827486692" />
-    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587564794111">
+    <state x="651" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589709691829">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587564794111" />
+    <state x="651" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1589709691829" />
     <state x="1245" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1588607386788">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -655,36 +694,36 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1243" y="282" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586704776468" />
-    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1588680744665">
+    <state x="413" y="150" key="CommitChangelistDialog2" timestamp="1589896821357">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="413" y="120" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587476068196" />
     <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612483609" />
-    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1588680744665" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1589114671029">
+    <state x="413" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1589896821357" />
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1590078826457">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1027" height="404" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1589114671029">
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1590078826457" />
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1589711643696" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1590078826457">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1027" height="404" key="GridCell.Tab.0.center/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1589114671029">
+    <state width="1877" height="240" key="GridCell.Tab.0.center/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1590078826457" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1589711643696" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1590078826457">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1027" height="404" key="GridCell.Tab.0.left/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1589114671029">
+    <state width="1877" height="240" key="GridCell.Tab.0.left/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1590078826457" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1589711643696" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1590078826457">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587474497799" />
-    <state width="1027" height="404" key="GridCell.Tab.0.right/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1588612453903" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1589114671029" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1590078826457" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1589711643696" />
     <state width="916" height="418" key="GridCell.Tab.1.bottom" timestamp="1586790849988">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -709,15 +748,19 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="970" y="213" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1584457439271" />
-    <state x="567" y="235" key="RollbackChangesDialog" timestamp="1587395276508">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="567" y="265" key="RollbackChangesDialog" timestamp="1589642207584">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="567" y="235" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587395276508" />
-    <state x="567" y="265" key="RollbackChangesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586878960119" />
+    <state x="567" y="265" key="RollbackChangesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1589642207584" />
     <state x="180" y="174" key="SettingsEditor" timestamp="1589119762759">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="180" y="174" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1589119762759" />
+    <state x="790" y="424" key="VCS.EditChangelistDialog" timestamp="1589642344017">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="790" y="424" key="VCS.EditChangelistDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1589642344017" />
     <state width="488" height="525" key="XDebugger.FullValuePopup" timestamp="1586612788132">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
