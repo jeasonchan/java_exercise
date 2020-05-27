@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--上面的http表明了当前xml文件的标签约束配置，已经包含进jar中了，因为引入了 org.mybatis jar 包。
+可见，java的文件索引就是跟Linux一样的，以文件树的形式分布/索引！每个项目的根目录都是一个文件书的起始位置！-->
+
+
+
+<!-- 根标签 -->
+<configuration>
+
+    <!--  能共用的值  -->
+    <properties>
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/?serverTimezone=GMT%2B8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+
+
+    </properties>
+
+    <!-- 环境，可以配置多个，default：指定采用哪个环境 -->
+    <environments default="test">
+
+
+        <!-- id：唯一标识 -->
+        <environment id="test">
+            <!-- 事务管理器，JDBC类型的事务管理器 -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据源，池类型的数据源 一般情况下会有普通连接、池连接、分布式连接三种实现-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/?serverTimezone=GMT%2B8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+
+
+        <environment id="development">
+            <!-- 事务管理器，JDBC类型的事务管理器 -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据源，池类型的数据源 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/> <!-- 配置了properties，所以可以直接引用 -->
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <!--  配置进mapper文件，即映射文件  -->
+    <mappers>
+
+        <!--  以资源路径为根目录的相对路径  -->
+        <mapper resource="mybatis/mybatis-mapper.xml"/>
+
+    </mappers>
+
+</configuration>
