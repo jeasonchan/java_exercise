@@ -156,12 +156,8 @@ public class MySqlExercise {
             TimeUnit.SECONDS.sleep(10);
 
 
-
-
-
-
-
-
+//            PreparedStatement preparedStatement = connection.prepareStatement("select ?");
+//            preparedStatement.execute("ccc",)
 
 
             System.out.println("开始connection commit！");
