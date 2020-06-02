@@ -9,7 +9,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
-public class Main {
+
+/**
+ * 使用配置
+ * <p>
+ * String myBatisConfig = "mybatis/mybatis-config.xml";
+ */
+
+
+public class JustSimpleRun {
     public static void main(String[] args) throws IOException {
 
         /*
